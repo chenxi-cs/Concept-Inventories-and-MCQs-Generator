@@ -1,0 +1,227 @@
+topic,concept
+Control Flow,if-else statements
+Control Flow,switch statements
+Control Flow,for loops
+Control Flow,while loops
+Control Flow,do-while loops
+Control Flow,break and continue statements
+Data Types,Primitive data types
+Data Types,Integer vs floating-point division
+Data Types,Type casting
+Data Types,String handling
+Object-Oriented Programming,Classes and objects
+Object-Oriented Programming,Inheritance
+Object-Oriented Programming,Polymorphism
+Object-Oriented Programming,Encapsulation
+Object-Oriented Programming,Interfaces and abstract classes
+Exception Handling,Try-catch blocks
+Exception Handling,Throwing exceptions
+Exception Handling,Creating custom exceptions
+Input/Output,Reading from and writing to files
+Input/Output,Console input and output
+JavaFX,JavaFX basics
+JavaFX,JavaFX event handling
+JavaFX,JavaFX UI components
+Concurrency,Threads and Runnable interface
+Concurrency,Synchronization
+Concurrency,Concurrent collections
+Collections,"List, Set, and Map interfaces"
+Collections,Iterators
+Collections,Generic collections
+Lambda Expressions,Syntax and usage
+Lambda Expressions,Functional interfaces
+Streams,Stream API
+Streams,"Filter, map, and reduce operations"
+Control Flow,while vs do-while loop
+Object-Oriented Programming,Classes and Objects
+Exception Handling,try-catch blocks
+Exception Handling,throw and throws keywords
+Data Structures,Arrays
+Data Structures,ArrayLists
+Data Structures,LinkedLists
+Concurrency,Threads
+Functional Programming,Lambda expressions
+Functional Programming,Streams API
+Input/Output,File I/O
+Input/Output,Console I/O
+Java Syntax,Variable declaration and initialization
+Java Syntax,Method declaration and invocation
+Introduction to Java,JShell - Java's REPL (read-eval-print-loop)
+Java Versions,Key new features of Java 9
+Interactive Programming,JShell for experimentation and discovery
+Software Engineering,Java 9 module system
+Recursion,Generating fractal computer graphics
+Recursion,Fibonacci series
+Streams,Treating sequences as streams
+Graphics,JavaFX lighting effects on 3D objects
+Development Environment,Java SE Development Kit (JDK)
+Version Management,Managing multiple JDK versions
+Environment Setup,Setting the PATH environment variable
+Environment Setup,JDK installation directory
+Environment Setup,CLASSPATH environment variable
+Environment Setup,Setting the JAVA_HOME environment variable
+Software Installation,Installing JDK on Windows and macOS
+Software Installation,Installing JDK on Linux using tar.gz archive
+Version Control,Understanding JDK version numbering prior to Java 9
+Version Control,Understanding new JDK version numbering from Java 9 onwards
+Environment Configuration,Managing PATH environment variable on Windows for JDK
+Environment Configuration,Temporary PATH setting for Command Prompt on Windows
+Environment Configuration,Determining installed JDKs on macOS using Terminal
+Introduction to Computing,"Computer hardware, software and networking basics"
+Introduction to Computing,Data hierarchy
+Programming Languages,"Machine Languages, Assembly Languages and High-Level Languages"
+Object-Oriented Programming,Object Technology
+Object-Oriented Programming,Methods and Classes
+Object-Oriented Programming,Instantiation
+Object-Oriented Programming,Reuse
+Object-Oriented Programming,Messages and Method Calls
+Object-Oriented Programming,Attributes and Instance Variables
+Object-Oriented Programming,Encapsulation and Information Hiding
+Object-Oriented Programming,Interfaces
+Object-Oriented Programming,Object-Oriented Analysis and Design (OOAD)
+Object-Oriented Programming,Unified Modeling Language (UML)
+Operating Systems,Windows—A Proprietary Operating System
+Operating Systems,Linux—An Open-Source Operating System
+Operating Systems,Apple’s macOS and iOS
+Operating Systems,Google’s Android
+Programming Languages,Java
+Development Environment,A Typical Java Development Environment
+Software Testing,Test-Driving a Java Application
+Internet and Web,Internet: A Network of Networks
+Internet and Web,World Wide Web: Making the Internet User-Friendly
+Internet and Web,Web Services and Mashups
+Internet and Web,Internet of Things
+Software Technologies,Software Technologies Overview
+Java Programming,Introduction to Java
+Java Programming,Java for Enterprise Programming
+Java Programming,Java for Internet-Based Applications
+Java Programming,Java for Mobile Applications
+Programming Paradigms,Procedural programming
+Programming Paradigms,Object-oriented programming
+Programming Paradigms,Generic programming
+Programming Paradigms,Functional programming with lambdas and streams
+Concurrency,Parallelization with multi-core hardware architectures
+Java Editions,Java Standard Edition (Java SE)
+Java Editions,Java Enterprise Edition (Java EE)
+Java Editions,Java Micro Edition (Java ME)
+Hardware and Software,Supercomputers and their capabilities
+Software Development,Computer programs and programming methodologies
+Computer Organization,Input unit
+Computer Organization,Processing units
+Computer Organization,Memory
+Computer Organization,Secondary storage
+Computer Organization,Output devices
+Hardware,Moore's Law
+Hardware,Silicon-chip technology
+Hardware,Cost reduction in computing
+Hardware,Communication bandwidth
+Hardware,Input devices
+Input/Output,"Types of input devices (e.g., accelerometer, voice input)"
+Input/Output,"Types of output devices (e.g., screens, printers, audio/video players)"
+Input/Output,"Secondary storage devices (e.g., SSDs, hard drives, USB flash drives)"
+Input/Output,Virtual and mixed reality devices as output
+Memory,"Volatile memory (e.g., RAM)"
+Memory,"Memory capacity (e.g., GB, gigabytes, bytes, bits)"
+Arithmetic and Logic Unit (ALU),"Basic arithmetic operations (addition, subtraction, multiplication, division)"
+Arithmetic and Logic Unit (ALU),"Decision mechanisms (e.g., comparison of items)"
+Central Processing Unit (CPU),Coordination of computer operations
+Central Processing Unit (CPU),"Multicore processors (e.g., dual-core, quad-core, octa-core)"
+Computer Architecture,Multicore architecture
+Storage,Secondary storage devices
+Storage,Persistent storage
+Storage,Cost and capacity of storage
+Data Hierarchy,Bits and binary digits
+Data Hierarchy,Characters and character sets
+Data Hierarchy,Unicode and ASCII character sets
+Data Hierarchy,Fields composed of characters or bytes
+Data Representation,Uppercase and lowercase letters for names
+Data Representation,Decimal digits for age
+Data Structures,Record as a group of related fields
+Data Structures,Class as an implementation of a record
+Data Structures,"Fields in a payroll record (e.g., Employee ID, Name, Address)"
+Data Structures,File as a group of related records
+Data Structures,Database as a collection of organized data
+Data Structures,"Relational database model with tables, records, and fields"
+Data Manipulation,Searching and sorting data in databases
+Data Management,Big data and its impact on software development
+Data Representation,Byte measurements
+Data Representation,"Kilobyte, Megabyte, Gigabyte, Terabyte, Petabyte, Exabyte, Zettabyte"
+Programming Languages,Machine languages
+Programming Languages,Assembly languages
+Programming Languages,High-level languages
+Programming Languages,Assemblers
+Programming Languages,Compilers
+Programming Languages,High-level vs machine and assembly languages
+Programming Languages,Compiled vs interpreted languages
+Programming Languages,Java's mixture of compilation and interpretation
+Object-Oriented Programming,Objects as reusable software components
+Object-Oriented Programming,Attributes and behaviors of objects
+Object-Oriented Programming,Classes as blueprints for objects
+Object-Oriented Programming,Modular design and implementation
+Object-Oriented Programming,Methods as tasks in a program
+Object-Oriented Programming,Class definition and encapsulation
+Object-Oriented Programming,Instantiation and objects
+Object-Oriented Programming,Reuse of classes
+Object-Oriented Programming,Messages and method calls
+Object-Oriented Programming,Attributes and instance variables
+Software Engineering,Building-block approach and software reuse
+Object-Oriented Programming,Encapsulation and information hiding
+Software Engineering,Object-oriented analysis and design
+Software Development Processes,Object-Oriented Analysis and Design (OOAD)
+Software Development Processes,Object-Oriented Programming (OOP)
+Modeling Languages,Unified Modeling Language (UML)
+Operating Systems,Purpose and Functionality of Operating Systems
+Operating Systems,Components of Operating Systems - Kernel
+Operating Systems,"Popular Desktop Operating Systems - Linux, Windows, macOS"
+Operating Systems,"Popular Mobile Operating Systems - Android, iOS"
+Operating Systems,History and Evolution of Windows Operating System
+Programming Languages,History and evolution of programming languages
+Programming Languages,Object-oriented programming support in various languages
+Programming Languages,Use of C and C++ in operating systems
+Programming Languages,JavaScript for web page interactivity
+Programming Languages,Objective-C for Apple operating systems
+Programming Languages,Structured programming as a disciplined approach
+Programming Languages,Object-oriented programming
+Programming Languages,Scripting languages
+Programming Languages,Platform independence
+Programming Languages,Extensible languages
+Programming Languages,Functional programming
+Programming Languages,Integration with Java
+Programming Languages,Open-source languages
+Programming Languages,Web application frameworks
+Programming Languages,Microprocessor revolution
+Programming Languages,Development of personal computers
+Programming Languages,Internet of Things
+Java Overview,"Write once, run anywhere"
+Java Overview,Enterprise applications development
+Java Overview,Android app development
+Java Overview,Java SE 8 and Java SE 9
+Java Class Libraries,Java APIs
+Java Class Libraries,Performance benefits of using Java API classes
+Development Environment,"Java development phases: edit, compile, load, verify, execute"
+Development Environment,Editors for Java programming
+Development Environment,Integrated Development Environments (IDEs)
+Development Environment,"Using IDEs like IntelliJ IDEA, NetBeans, and Eclipse"
+Development Environment,Compiling Java programs using the javac command
+Development Environment,Understanding the PATH environment variable for Java installation
+Compilation,Java source code compilation into bytecodes
+Virtual Machine,Java Virtual Machine (JVM) execution of bytecodes
+Portability,Platform independence of Java bytecodes
+Virtual Machine,Concept of a virtual machine and its role in Java
+Execution,Executing Java applications using the java command
+Java Development Environment,Loading a Program into Memory
+Java Development Environment,Bytecode Verification
+Java Development Environment,Execution of Bytecodes
+Java Development Environment,Just-In-Time (JIT) Compilation
+Java Development Environment,Compilation Phases
+Error Handling,Division by Zero
+Input/Output,Displaying messages on the screen
+Error Handling,Runtime errors vs execution-time errors
+Error Handling,Fatal vs nonfatal runtime errors
+Programming Environment,Interacting with a Java application via GUI
+Programming Environment,Using command windows for Java applications
+Setup and Configuration,Setting up Java and downloading examples
+File System Navigation,Using cd command to change directories
+Compilation,Compiling Java files with javac
+Execution,Running Java applications using the java command
+Case Sensitivity,Java commands are case sensitive

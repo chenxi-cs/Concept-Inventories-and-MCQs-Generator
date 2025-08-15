@@ -1,0 +1,906 @@
+[
+  {
+    "topic": "Control Flow",
+    "concept": "if-else statements"
+  },
+  {
+    "topic": "Control Flow",
+    "concept": "switch statements"
+  },
+  {
+    "topic": "Control Flow",
+    "concept": "for loops"
+  },
+  {
+    "topic": "Control Flow",
+    "concept": "while loops"
+  },
+  {
+    "topic": "Control Flow",
+    "concept": "do-while loops"
+  },
+  {
+    "topic": "Control Flow",
+    "concept": "break and continue statements"
+  },
+  {
+    "topic": "Data Types",
+    "concept": "Primitive data types"
+  },
+  {
+    "topic": "Data Types",
+    "concept": "Integer vs floating-point division"
+  },
+  {
+    "topic": "Data Types",
+    "concept": "Type casting"
+  },
+  {
+    "topic": "Data Types",
+    "concept": "String handling"
+  },
+  {
+    "topic": "Object-Oriented Programming",
+    "concept": "Classes and objects"
+  },
+  {
+    "topic": "Object-Oriented Programming",
+    "concept": "Inheritance"
+  },
+  {
+    "topic": "Object-Oriented Programming",
+    "concept": "Polymorphism"
+  },
+  {
+    "topic": "Object-Oriented Programming",
+    "concept": "Encapsulation"
+  },
+  {
+    "topic": "Object-Oriented Programming",
+    "concept": "Interfaces and abstract classes"
+  },
+  {
+    "topic": "Exception Handling",
+    "concept": "Try-catch blocks"
+  },
+  {
+    "topic": "Exception Handling",
+    "concept": "Throwing exceptions"
+  },
+  {
+    "topic": "Exception Handling",
+    "concept": "Creating custom exceptions"
+  },
+  {
+    "topic": "Input/Output",
+    "concept": "Reading from and writing to files"
+  },
+  {
+    "topic": "Input/Output",
+    "concept": "Console input and output"
+  },
+  {
+    "topic": "JavaFX",
+    "concept": "JavaFX basics"
+  },
+  {
+    "topic": "JavaFX",
+    "concept": "JavaFX event handling"
+  },
+  {
+    "topic": "JavaFX",
+    "concept": "JavaFX UI components"
+  },
+  {
+    "topic": "Concurrency",
+    "concept": "Threads and Runnable interface"
+  },
+  {
+    "topic": "Concurrency",
+    "concept": "Synchronization"
+  },
+  {
+    "topic": "Concurrency",
+    "concept": "Concurrent collections"
+  },
+  {
+    "topic": "Collections",
+    "concept": "List, Set, and Map interfaces"
+  },
+  {
+    "topic": "Collections",
+    "concept": "Iterators"
+  },
+  {
+    "topic": "Collections",
+    "concept": "Generic collections"
+  },
+  {
+    "topic": "Lambda Expressions",
+    "concept": "Syntax and usage"
+  },
+  {
+    "topic": "Lambda Expressions",
+    "concept": "Functional interfaces"
+  },
+  {
+    "topic": "Streams",
+    "concept": "Stream API"
+  },
+  {
+    "topic": "Streams",
+    "concept": "Filter, map, and reduce operations"
+  },
+  {
+    "topic": "Control Flow",
+    "concept": "while vs do-while loop"
+  },
+  {
+    "topic": "Object-Oriented Programming",
+    "concept": "Classes and Objects"
+  },
+  {
+    "topic": "Exception Handling",
+    "concept": "try-catch blocks"
+  },
+  {
+    "topic": "Exception Handling",
+    "concept": "throw and throws keywords"
+  },
+  {
+    "topic": "Data Structures",
+    "concept": "Arrays"
+  },
+  {
+    "topic": "Data Structures",
+    "concept": "ArrayLists"
+  },
+  {
+    "topic": "Data Structures",
+    "concept": "LinkedLists"
+  },
+  {
+    "topic": "Concurrency",
+    "concept": "Threads"
+  },
+  {
+    "topic": "Functional Programming",
+    "concept": "Lambda expressions"
+  },
+  {
+    "topic": "Functional Programming",
+    "concept": "Streams API"
+  },
+  {
+    "topic": "Input/Output",
+    "concept": "File I/O"
+  },
+  {
+    "topic": "Input/Output",
+    "concept": "Console I/O"
+  },
+  {
+    "topic": "Java Syntax",
+    "concept": "Variable declaration and initialization"
+  },
+  {
+    "topic": "Java Syntax",
+    "concept": "Method declaration and invocation"
+  },
+  {
+    "topic": "Introduction to Java",
+    "concept": "JShell - Java's REPL (read-eval-print-loop)"
+  },
+  {
+    "topic": "Java Versions",
+    "concept": "Key new features of Java 9"
+  },
+  {
+    "topic": "Interactive Programming",
+    "concept": "JShell for experimentation and discovery"
+  },
+  {
+    "topic": "Software Engineering",
+    "concept": "Java 9 module system"
+  },
+  {
+    "topic": "Recursion",
+    "concept": "Generating fractal computer graphics"
+  },
+  {
+    "topic": "Recursion",
+    "concept": "Fibonacci series"
+  },
+  {
+    "topic": "Streams",
+    "concept": "Treating sequences as streams"
+  },
+  {
+    "topic": "Graphics",
+    "concept": "JavaFX lighting effects on 3D objects"
+  },
+  {
+    "topic": "Development Environment",
+    "concept": "Java SE Development Kit (JDK)"
+  },
+  {
+    "topic": "Version Management",
+    "concept": "Managing multiple JDK versions"
+  },
+  {
+    "topic": "Environment Setup",
+    "concept": "Setting the PATH environment variable"
+  },
+  {
+    "topic": "Environment Setup",
+    "concept": "JDK installation directory"
+  },
+  {
+    "topic": "Environment Setup",
+    "concept": "CLASSPATH environment variable"
+  },
+  {
+    "topic": "Environment Setup",
+    "concept": "Setting the JAVA_HOME environment variable"
+  },
+  {
+    "topic": "Software Installation",
+    "concept": "Installing JDK on Windows and macOS"
+  },
+  {
+    "topic": "Software Installation",
+    "concept": "Installing JDK on Linux using tar.gz archive"
+  },
+  {
+    "topic": "Version Control",
+    "concept": "Understanding JDK version numbering prior to Java 9"
+  },
+  {
+    "topic": "Version Control",
+    "concept": "Understanding new JDK version numbering from Java 9 onwards"
+  },
+  {
+    "topic": "Environment Configuration",
+    "concept": "Managing PATH environment variable on Windows for JDK"
+  },
+  {
+    "topic": "Environment Configuration",
+    "concept": "Temporary PATH setting for Command Prompt on Windows"
+  },
+  {
+    "topic": "Environment Configuration",
+    "concept": "Determining installed JDKs on macOS using Terminal"
+  },
+  {
+    "topic": "Introduction to Computing",
+    "concept": "Computer hardware, software and networking basics"
+  },
+  {
+    "topic": "Introduction to Computing",
+    "concept": "Data hierarchy"
+  },
+  {
+    "topic": "Programming Languages",
+    "concept": "Machine Languages, Assembly Languages and High-Level Languages"
+  },
+  {
+    "topic": "Object-Oriented Programming",
+    "concept": "Object Technology"
+  },
+  {
+    "topic": "Object-Oriented Programming",
+    "concept": "Methods and Classes"
+  },
+  {
+    "topic": "Object-Oriented Programming",
+    "concept": "Instantiation"
+  },
+  {
+    "topic": "Object-Oriented Programming",
+    "concept": "Reuse"
+  },
+  {
+    "topic": "Object-Oriented Programming",
+    "concept": "Messages and Method Calls"
+  },
+  {
+    "topic": "Object-Oriented Programming",
+    "concept": "Attributes and Instance Variables"
+  },
+  {
+    "topic": "Object-Oriented Programming",
+    "concept": "Encapsulation and Information Hiding"
+  },
+  {
+    "topic": "Object-Oriented Programming",
+    "concept": "Interfaces"
+  },
+  {
+    "topic": "Object-Oriented Programming",
+    "concept": "Object-Oriented Analysis and Design (OOAD)"
+  },
+  {
+    "topic": "Object-Oriented Programming",
+    "concept": "Unified Modeling Language (UML)"
+  },
+  {
+    "topic": "Operating Systems",
+    "concept": "Windows—A Proprietary Operating System"
+  },
+  {
+    "topic": "Operating Systems",
+    "concept": "Linux—An Open-Source Operating System"
+  },
+  {
+    "topic": "Operating Systems",
+    "concept": "Apple’s macOS and iOS"
+  },
+  {
+    "topic": "Operating Systems",
+    "concept": "Google’s Android"
+  },
+  {
+    "topic": "Programming Languages",
+    "concept": "Java"
+  },
+  {
+    "topic": "Development Environment",
+    "concept": "A Typical Java Development Environment"
+  },
+  {
+    "topic": "Software Testing",
+    "concept": "Test-Driving a Java Application"
+  },
+  {
+    "topic": "Internet and Web",
+    "concept": "Internet: A Network of Networks"
+  },
+  {
+    "topic": "Internet and Web",
+    "concept": "World Wide Web: Making the Internet User-Friendly"
+  },
+  {
+    "topic": "Internet and Web",
+    "concept": "Web Services and Mashups"
+  },
+  {
+    "topic": "Internet and Web",
+    "concept": "Internet of Things"
+  },
+  {
+    "topic": "Software Technologies",
+    "concept": "Software Technologies Overview"
+  },
+  {
+    "topic": "Java Programming",
+    "concept": "Introduction to Java"
+  },
+  {
+    "topic": "Java Programming",
+    "concept": "Java for Enterprise Programming"
+  },
+  {
+    "topic": "Java Programming",
+    "concept": "Java for Internet-Based Applications"
+  },
+  {
+    "topic": "Java Programming",
+    "concept": "Java for Mobile Applications"
+  },
+  {
+    "topic": "Programming Paradigms",
+    "concept": "Procedural programming"
+  },
+  {
+    "topic": "Programming Paradigms",
+    "concept": "Object-oriented programming"
+  },
+  {
+    "topic": "Programming Paradigms",
+    "concept": "Generic programming"
+  },
+  {
+    "topic": "Programming Paradigms",
+    "concept": "Functional programming with lambdas and streams"
+  },
+  {
+    "topic": "Concurrency",
+    "concept": "Parallelization with multi-core hardware architectures"
+  },
+  {
+    "topic": "Java Editions",
+    "concept": "Java Standard Edition (Java SE)"
+  },
+  {
+    "topic": "Java Editions",
+    "concept": "Java Enterprise Edition (Java EE)"
+  },
+  {
+    "topic": "Java Editions",
+    "concept": "Java Micro Edition (Java ME)"
+  },
+  {
+    "topic": "Hardware and Software",
+    "concept": "Supercomputers and their capabilities"
+  },
+  {
+    "topic": "Software Development",
+    "concept": "Computer programs and programming methodologies"
+  },
+  {
+    "topic": "Computer Organization",
+    "concept": "Input unit"
+  },
+  {
+    "topic": "Computer Organization",
+    "concept": "Processing units"
+  },
+  {
+    "topic": "Computer Organization",
+    "concept": "Memory"
+  },
+  {
+    "topic": "Computer Organization",
+    "concept": "Secondary storage"
+  },
+  {
+    "topic": "Computer Organization",
+    "concept": "Output devices"
+  },
+  {
+    "topic": "Hardware",
+    "concept": "Moore's Law"
+  },
+  {
+    "topic": "Hardware",
+    "concept": "Silicon-chip technology"
+  },
+  {
+    "topic": "Hardware",
+    "concept": "Cost reduction in computing"
+  },
+  {
+    "topic": "Hardware",
+    "concept": "Communication bandwidth"
+  },
+  {
+    "topic": "Hardware",
+    "concept": "Input devices"
+  },
+  {
+    "topic": "Input/Output",
+    "concept": "Types of input devices (e.g., accelerometer, voice input)"
+  },
+  {
+    "topic": "Input/Output",
+    "concept": "Types of output devices (e.g., screens, printers, audio/video players)"
+  },
+  {
+    "topic": "Input/Output",
+    "concept": "Secondary storage devices (e.g., SSDs, hard drives, USB flash drives)"
+  },
+  {
+    "topic": "Input/Output",
+    "concept": "Virtual and mixed reality devices as output"
+  },
+  {
+    "topic": "Memory",
+    "concept": "Volatile memory (e.g., RAM)"
+  },
+  {
+    "topic": "Memory",
+    "concept": "Memory capacity (e.g., GB, gigabytes, bytes, bits)"
+  },
+  {
+    "topic": "Arithmetic and Logic Unit (ALU)",
+    "concept": "Basic arithmetic operations (addition, subtraction, multiplication, division)"
+  },
+  {
+    "topic": "Arithmetic and Logic Unit (ALU)",
+    "concept": "Decision mechanisms (e.g., comparison of items)"
+  },
+  {
+    "topic": "Central Processing Unit (CPU)",
+    "concept": "Coordination of computer operations"
+  },
+  {
+    "topic": "Central Processing Unit (CPU)",
+    "concept": "Multicore processors (e.g., dual-core, quad-core, octa-core)"
+  },
+  {
+    "topic": "Computer Architecture",
+    "concept": "Multicore architecture"
+  },
+  {
+    "topic": "Storage",
+    "concept": "Secondary storage devices"
+  },
+  {
+    "topic": "Storage",
+    "concept": "Persistent storage"
+  },
+  {
+    "topic": "Storage",
+    "concept": "Cost and capacity of storage"
+  },
+  {
+    "topic": "Data Hierarchy",
+    "concept": "Bits and binary digits"
+  },
+  {
+    "topic": "Data Hierarchy",
+    "concept": "Characters and character sets"
+  },
+  {
+    "topic": "Data Hierarchy",
+    "concept": "Unicode and ASCII character sets"
+  },
+  {
+    "topic": "Data Hierarchy",
+    "concept": "Fields composed of characters or bytes"
+  },
+  {
+    "topic": "Data Representation",
+    "concept": "Uppercase and lowercase letters for names"
+  },
+  {
+    "topic": "Data Representation",
+    "concept": "Decimal digits for age"
+  },
+  {
+    "topic": "Data Structures",
+    "concept": "Record as a group of related fields"
+  },
+  {
+    "topic": "Data Structures",
+    "concept": "Class as an implementation of a record"
+  },
+  {
+    "topic": "Data Structures",
+    "concept": "Fields in a payroll record (e.g., Employee ID, Name, Address)"
+  },
+  {
+    "topic": "Data Structures",
+    "concept": "File as a group of related records"
+  },
+  {
+    "topic": "Data Structures",
+    "concept": "Database as a collection of organized data"
+  },
+  {
+    "topic": "Data Structures",
+    "concept": "Relational database model with tables, records, and fields"
+  },
+  {
+    "topic": "Data Manipulation",
+    "concept": "Searching and sorting data in databases"
+  },
+  {
+    "topic": "Data Management",
+    "concept": "Big data and its impact on software development"
+  },
+  {
+    "topic": "Data Representation",
+    "concept": "Byte measurements"
+  },
+  {
+    "topic": "Data Representation",
+    "concept": "Kilobyte, Megabyte, Gigabyte, Terabyte, Petabyte, Exabyte, Zettabyte"
+  },
+  {
+    "topic": "Programming Languages",
+    "concept": "Machine languages"
+  },
+  {
+    "topic": "Programming Languages",
+    "concept": "Assembly languages"
+  },
+  {
+    "topic": "Programming Languages",
+    "concept": "High-level languages"
+  },
+  {
+    "topic": "Programming Languages",
+    "concept": "Assemblers"
+  },
+  {
+    "topic": "Programming Languages",
+    "concept": "Compilers"
+  },
+  {
+    "topic": "Programming Languages",
+    "concept": "High-level vs machine and assembly languages"
+  },
+  {
+    "topic": "Programming Languages",
+    "concept": "Compiled vs interpreted languages"
+  },
+  {
+    "topic": "Programming Languages",
+    "concept": "Java's mixture of compilation and interpretation"
+  },
+  {
+    "topic": "Object-Oriented Programming",
+    "concept": "Objects as reusable software components"
+  },
+  {
+    "topic": "Object-Oriented Programming",
+    "concept": "Attributes and behaviors of objects"
+  },
+  {
+    "topic": "Object-Oriented Programming",
+    "concept": "Classes as blueprints for objects"
+  },
+  {
+    "topic": "Object-Oriented Programming",
+    "concept": "Modular design and implementation"
+  },
+  {
+    "topic": "Object-Oriented Programming",
+    "concept": "Methods as tasks in a program"
+  },
+  {
+    "topic": "Object-Oriented Programming",
+    "concept": "Class definition and encapsulation"
+  },
+  {
+    "topic": "Object-Oriented Programming",
+    "concept": "Instantiation and objects"
+  },
+  {
+    "topic": "Object-Oriented Programming",
+    "concept": "Reuse of classes"
+  },
+  {
+    "topic": "Object-Oriented Programming",
+    "concept": "Messages and method calls"
+  },
+  {
+    "topic": "Object-Oriented Programming",
+    "concept": "Attributes and instance variables"
+  },
+  {
+    "topic": "Software Engineering",
+    "concept": "Building-block approach and software reuse"
+  },
+  {
+    "topic": "Object-Oriented Programming",
+    "concept": "Encapsulation and information hiding"
+  },
+  {
+    "topic": "Software Engineering",
+    "concept": "Object-oriented analysis and design"
+  },
+  {
+    "topic": "Software Development Processes",
+    "concept": "Object-Oriented Analysis and Design (OOAD)"
+  },
+  {
+    "topic": "Software Development Processes",
+    "concept": "Object-Oriented Programming (OOP)"
+  },
+  {
+    "topic": "Modeling Languages",
+    "concept": "Unified Modeling Language (UML)"
+  },
+  {
+    "topic": "Operating Systems",
+    "concept": "Purpose and Functionality of Operating Systems"
+  },
+  {
+    "topic": "Operating Systems",
+    "concept": "Components of Operating Systems - Kernel"
+  },
+  {
+    "topic": "Operating Systems",
+    "concept": "Popular Desktop Operating Systems - Linux, Windows, macOS"
+  },
+  {
+    "topic": "Operating Systems",
+    "concept": "Popular Mobile Operating Systems - Android, iOS"
+  },
+  {
+    "topic": "Operating Systems",
+    "concept": "History and Evolution of Windows Operating System"
+  },
+  {
+    "topic": "Programming Languages",
+    "concept": "History and evolution of programming languages"
+  },
+  {
+    "topic": "Programming Languages",
+    "concept": "Object-oriented programming support in various languages"
+  },
+  {
+    "topic": "Programming Languages",
+    "concept": "Use of C and C++ in operating systems"
+  },
+  {
+    "topic": "Programming Languages",
+    "concept": "JavaScript for web page interactivity"
+  },
+  {
+    "topic": "Programming Languages",
+    "concept": "Objective-C for Apple operating systems"
+  },
+  {
+    "topic": "Programming Languages",
+    "concept": "Structured programming as a disciplined approach"
+  },
+  {
+    "topic": "Programming Languages",
+    "concept": "Object-oriented programming"
+  },
+  {
+    "topic": "Programming Languages",
+    "concept": "Scripting languages"
+  },
+  {
+    "topic": "Programming Languages",
+    "concept": "Platform independence"
+  },
+  {
+    "topic": "Programming Languages",
+    "concept": "Extensible languages"
+  },
+  {
+    "topic": "Programming Languages",
+    "concept": "Functional programming"
+  },
+  {
+    "topic": "Programming Languages",
+    "concept": "Integration with Java"
+  },
+  {
+    "topic": "Programming Languages",
+    "concept": "Open-source languages"
+  },
+  {
+    "topic": "Programming Languages",
+    "concept": "Web application frameworks"
+  },
+  {
+    "topic": "Programming Languages",
+    "concept": "Microprocessor revolution"
+  },
+  {
+    "topic": "Programming Languages",
+    "concept": "Development of personal computers"
+  },
+  {
+    "topic": "Programming Languages",
+    "concept": "Internet of Things"
+  },
+  {
+    "topic": "Java Overview",
+    "concept": "Write once, run anywhere"
+  },
+  {
+    "topic": "Java Overview",
+    "concept": "Enterprise applications development"
+  },
+  {
+    "topic": "Java Overview",
+    "concept": "Android app development"
+  },
+  {
+    "topic": "Java Overview",
+    "concept": "Java SE 8 and Java SE 9"
+  },
+  {
+    "topic": "Java Class Libraries",
+    "concept": "Java APIs"
+  },
+  {
+    "topic": "Java Class Libraries",
+    "concept": "Performance benefits of using Java API classes"
+  },
+  {
+    "topic": "Development Environment",
+    "concept": "Java development phases: edit, compile, load, verify, execute"
+  },
+  {
+    "topic": "Development Environment",
+    "concept": "Editors for Java programming"
+  },
+  {
+    "topic": "Development Environment",
+    "concept": "Integrated Development Environments (IDEs)"
+  },
+  {
+    "topic": "Development Environment",
+    "concept": "Using IDEs like IntelliJ IDEA, NetBeans, and Eclipse"
+  },
+  {
+    "topic": "Development Environment",
+    "concept": "Compiling Java programs using the javac command"
+  },
+  {
+    "topic": "Development Environment",
+    "concept": "Understanding the PATH environment variable for Java installation"
+  },
+  {
+    "topic": "Compilation",
+    "concept": "Java source code compilation into bytecodes"
+  },
+  {
+    "topic": "Virtual Machine",
+    "concept": "Java Virtual Machine (JVM) execution of bytecodes"
+  },
+  {
+    "topic": "Portability",
+    "concept": "Platform independence of Java bytecodes"
+  },
+  {
+    "topic": "Virtual Machine",
+    "concept": "Concept of a virtual machine and its role in Java"
+  },
+  {
+    "topic": "Execution",
+    "concept": "Executing Java applications using the java command"
+  },
+  {
+    "topic": "Java Development Environment",
+    "concept": "Loading a Program into Memory"
+  },
+  {
+    "topic": "Java Development Environment",
+    "concept": "Bytecode Verification"
+  },
+  {
+    "topic": "Java Development Environment",
+    "concept": "Execution of Bytecodes"
+  },
+  {
+    "topic": "Java Development Environment",
+    "concept": "Just-In-Time (JIT) Compilation"
+  },
+  {
+    "topic": "Java Development Environment",
+    "concept": "Compilation Phases"
+  },
+  {
+    "topic": "Error Handling",
+    "concept": "Division by Zero"
+  },
+  {
+    "topic": "Input/Output",
+    "concept": "Displaying messages on the screen"
+  },
+  {
+    "topic": "Error Handling",
+    "concept": "Runtime errors vs execution-time errors"
+  },
+  {
+    "topic": "Error Handling",
+    "concept": "Fatal vs nonfatal runtime errors"
+  },
+  {
+    "topic": "Programming Environment",
+    "concept": "Interacting with a Java application via GUI"
+  },
+  {
+    "topic": "Programming Environment",
+    "concept": "Using command windows for Java applications"
+  },
+  {
+    "topic": "Setup and Configuration",
+    "concept": "Setting up Java and downloading examples"
+  },
+  {
+    "topic": "File System Navigation",
+    "concept": "Using cd command to change directories"
+  },
+  {
+    "topic": "Compilation",
+    "concept": "Compiling Java files with javac"
+  },
+  {
+    "topic": "Execution",
+    "concept": "Running Java applications using the java command"
+  },
+  {
+    "topic": "Case Sensitivity",
+    "concept": "Java commands are case sensitive"
+  }
+]
