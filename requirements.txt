@@ -1,0 +1,16 @@
+# Minimal requirements for running the project
+
+# PDF parsing
+PyMuPDF          # fitz
+
+# OpenAI API
+openai
+python-dotenv
+
+# Data processing
+pandas
+numpy
+
+# Machine learning (AST classifier & training)
+torch
+scikit-learn
