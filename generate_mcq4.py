@@ -20,10 +20,14 @@ client = OpenAI(api_key=OPENAI_API_KEY)
 # ==== Config ====
 BOOKS = [
     {"name": "Java_How_to_Program", "path": "PDFs/1_Java_How to Program 11th Early Objects.pdf", "start": 100, "end": 200},
-    {"name": "Head_First_Java", "path": "PDFs/2_Head_First_Java_Second_Edition.pdf", "start": 200, "end": 300},
+    {"name": "Introduction to Java Programming and Data Structures", "path": "PDFs/4_Introduction to Java Programming and Data Structures, Comprehensive Version (11th Edition) 2018.pdf", "start": 100, "end": 500},
     {"name": "Think_Java", "path": "PDFs/10_Think Java- How to Think Like a Computer Scientist.pdf", "start": 100, "end": 200},
     {"name": "Starting_Out_with_Java", "path": "PDFs/8_Starting Out with Java- From Control Structures through Objects.pdf", "start": 800, "end": 900},
     {"name": "Java_Programming", "path": "PDFs/7_Java Programming.pdf", "start": 500, "end": 600},
+    {"name": "Object First with Java", "path": "PDFs/3_Object First with Java.pdf", "start": 100, "end": 300},
+    {"name": "An Introduction to Java Programming", "path": "PDFs/5_Java- An Introduction to Problem Solving and Programming.pdf", "start": 50, "end": 100},
+    {"name": "Building Java Programs", "path": "PDFs/6_Building Java Programs：A Back to Basics Approach.pdf", "start": 50, "end": 100},
+    
 ]
 concept_json = "concept_inventory2.json"
 concept_csv = "concept_inventory2.csv"
