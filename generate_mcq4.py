@@ -1,5 +1,3 @@
-# generate_mcq3.py (patched, stable)
-
 import fitz
 import re as _re
 import os
