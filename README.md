@@ -1,4 +1,4 @@
-# Automated Concept Inventories & MCQs Generation for CS1 Education
+# Automated Concept Inventories & MCQs Generation
 
 ## Overview
 This project automates the generation of concept inventories and multiple-choice questions (MCQs) for introductory computer science (CS1) courses in Java. It integrates large language models (LLMs) with structured misconception data and an AST-based classifier to produce pedagogically valuable assessment items.
