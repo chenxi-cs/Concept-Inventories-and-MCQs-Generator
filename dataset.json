@@ -1,0 +1,802 @@
+[
+  {
+    "code": "int i = 0; for(i < 10; i++) {}",
+    "label": "syntactic"
+  },
+  {
+    "code": "System.out.println(\"Hello\"",
+    "label": "syntactic"
+  },
+  {
+    "code": "if x == 5",
+    "label": "syntactic"
+  },
+  {
+    "code": "for int i = 0; i < 10; i++",
+    "label": "syntactic"
+  },
+  {
+    "code": "int x == 5;",
+    "label": "syntactic"
+  },
+  {
+    "code": "while(x < 10) x++",
+    "label": "syntactic"
+  },
+  {
+    "code": "public static void main(String args)",
+    "label": "syntactic"
+  },
+  {
+    "code": "int[] arr = new int[5]; arr[5] = 10;",
+    "label": "syntactic"
+  },
+  {
+    "code": "if (x > 3) { System.out.println(x);",
+    "label": "syntactic"
+  },
+  {
+    "code": "System.out.println(\"Hello\" + )",
+    "label": "syntactic"
+  },
+  {
+    "code": "int[] arr = new int[5]; arr[5] = 10;",
+    "label": "conceptual"
+  },
+  {
+    "code": "String s = null; s.length();",
+    "label": "conceptual"
+  },
+  {
+    "code": "int x; System.out.println(x);",
+    "label": "conceptual"
+  },
+  {
+    "code": "int x = 'a';",
+    "label": "conceptual"
+  },
+  {
+    "code": "boolean flag = 1;",
+    "label": "conceptual"
+  },
+  {
+    "code": "int result = 5 / 0;",
+    "label": "conceptual"
+  },
+  {
+    "code": "int[] nums = new int[0]; nums[0] = 1;",
+    "label": "conceptual"
+  },
+  {
+    "code": "String s = 123;",
+    "label": "conceptual"
+  },
+  {
+    "code": "float f = 1.0;",
+    "label": "conceptual"
+  },
+  {
+    "code": "char c = \"a\";",
+    "label": "conceptual"
+  },
+  {
+    "code": "if (x = 5)",
+    "label": "strategic"
+  },
+  {
+    "code": "while(true) {}",
+    "label": "strategic"
+  },
+  {
+    "code": "for(int i = 0; i < 10; i--) {}",
+    "label": "strategic"
+  },
+  {
+    "code": "if (x > 10 && x < 5)",
+    "label": "strategic"
+  },
+  {
+    "code": "return;",
+    "label": "strategic"
+  },
+  {
+    "code": "int x = 5; if(x > 0); { System.out.println(x); }",
+    "label": "strategic"
+  },
+  {
+    "code": "if (isTrue = true)",
+    "label": "strategic"
+  },
+  {
+    "code": "int i = 0; while(i < 10) { i--; }",
+    "label": "strategic"
+  },
+  {
+    "code": "if (x == 5 || x == 6 && x == 7)",
+    "label": "strategic"
+  },
+  {
+    "code": "int x = 1; if(x > 0) x = x++;",
+    "label": "strategic"
+  },
+  {
+    "code": "int x = 5;",
+    "label": "none"
+  },
+  {
+    "code": "System.out.println(\"Hello World\");",
+    "label": "none"
+  },
+  {
+    "code": "for(int i = 0; i < 10; i++) { System.out.println(i); }",
+    "label": "none"
+  },
+  {
+    "code": "if(x == 5) { x++; }",
+    "label": "none"
+  },
+  {
+    "code": "int[] arr = {1, 2, 3};",
+    "label": "none"
+  },
+  {
+    "code": "String s = \"test\";",
+    "label": "none"
+  },
+  {
+    "code": "double pi = 3.14;",
+    "label": "none"
+  },
+  {
+    "code": "char c = 'a';",
+    "label": "none"
+  },
+  {
+    "code": "boolean flag = true;",
+    "label": "none"
+  },
+  {
+    "code": "while(x < 10) { x++; }",
+    "label": "none"
+  },
+  {
+    "code": "float f = 1.0;",
+    "label": "conceptual"
+  },
+  {
+    "code": "String s = null; s.length();",
+    "label": "conceptual"
+  },
+  {
+    "code": "int x; System.out.println(x);",
+    "label": "conceptual"
+  },
+  {
+    "code": "char c = \"a\";",
+    "label": "conceptual"
+  },
+  {
+    "code": "System.out.println(\"Hello World\");",
+    "label": "none"
+  },
+  {
+    "code": "return;",
+    "label": "strategic"
+  },
+  {
+    "code": "System.out.println(\"Hello\"",
+    "label": "syntactic"
+  },
+  {
+    "code": "System.out.println(\"Hello World\");",
+    "label": "none"
+  },
+  {
+    "code": "int i = 0; while(i < 10) { i--; }",
+    "label": "strategic"
+  },
+  {
+    "code": "System.out.println(\"Hello\" + )",
+    "label": "syntactic"
+  },
+  {
+    "code": "int result = 5 / 0;",
+    "label": "conceptual"
+  },
+  {
+    "code": "for(int i = 0; i < 10; i++) { System.out.println(i); }",
+    "label": "none"
+  },
+  {
+    "code": "char c = 'a';",
+    "label": "none"
+  },
+  {
+    "code": "while(x < 10) { x++; }",
+    "label": "none"
+  },
+  {
+    "code": "int[] arr = {1, 2, 3};",
+    "label": "none"
+  },
+  {
+    "code": "double pi = 3.14;",
+    "label": "none"
+  },
+  {
+    "code": "System.out.println(\"Hello\"",
+    "label": "syntactic"
+  },
+  {
+    "code": "if (isTrue = true)",
+    "label": "strategic"
+  },
+  {
+    "code": "int result = 5 / 0;",
+    "label": "conceptual"
+  },
+  {
+    "code": "char c = 'a';",
+    "label": "none"
+  },
+  {
+    "code": "if(x == 5) { x++; }",
+    "label": "none"
+  },
+  {
+    "code": "int[] arr = new int[5]; arr[5] = 10;",
+    "label": "syntactic"
+  },
+  {
+    "code": "double pi = 3.14;",
+    "label": "none"
+  },
+  {
+    "code": "if (isTrue = true)",
+    "label": "strategic"
+  },
+  {
+    "code": "char c = \"a\";",
+    "label": "conceptual"
+  },
+  {
+    "code": "String s = null; s.length();",
+    "label": "conceptual"
+  },
+  {
+    "code": "System.out.println(\"Hello World\");",
+    "label": "none"
+  },
+  {
+    "code": "if (x = 5)",
+    "label": "strategic"
+  },
+  {
+    "code": "int[] arr = new int[5]; arr[5] = 10;",
+    "label": "syntactic"
+  },
+  {
+    "code": "int i = 0; for(i < 10; i++) {}",
+    "label": "syntactic"
+  },
+  {
+    "code": "String s = 123;",
+    "label": "conceptual"
+  },
+  {
+    "code": "if (isTrue = true)",
+    "label": "strategic"
+  },
+  {
+    "code": "System.out.println(\"Hello\"",
+    "label": "syntactic"
+  },
+  {
+    "code": "if (x == 5 || x == 6 && x == 7)",
+    "label": "strategic"
+  },
+  {
+    "code": "int x = 'a';",
+    "label": "conceptual"
+  },
+  {
+    "code": "boolean flag = true;",
+    "label": "none"
+  },
+  {
+    "code": "if(x == 5) { x++; }",
+    "label": "none"
+  },
+  {
+    "code": "return;",
+    "label": "strategic"
+  },
+  {
+    "code": "int result = 5 / 0;",
+    "label": "conceptual"
+  },
+  {
+    "code": "return;",
+    "label": "strategic"
+  },
+  {
+    "code": "int x = 'a';",
+    "label": "conceptual"
+  },
+  {
+    "code": "if(x == 5) { x++; }",
+    "label": "none"
+  },
+  {
+    "code": "int x = 5; if(x > 0); { System.out.println(x); }",
+    "label": "strategic"
+  },
+  {
+    "code": "int x = 5; if(x > 0); { System.out.println(x); }",
+    "label": "strategic"
+  },
+  {
+    "code": "while(x < 10) x++",
+    "label": "syntactic"
+  },
+  {
+    "code": "if (x == 5 || x == 6 && x == 7)",
+    "label": "strategic"
+  },
+  {
+    "code": "float f = 1.0;",
+    "label": "conceptual"
+  },
+  {
+    "code": "int[] nums = new int[0]; nums[0] = 1;",
+    "label": "conceptual"
+  },
+  {
+    "code": "String s = 123;",
+    "label": "conceptual"
+  },
+  {
+    "code": "for(int i = 0; i < 10; i--) {}",
+    "label": "strategic"
+  },
+  {
+    "code": "int x = 1; if(x > 0) x = x++;",
+    "label": "strategic"
+  },
+  {
+    "code": "int x = 1; if(x > 0) x = x++;",
+    "label": "strategic"
+  },
+  {
+    "code": "double pi = 3.14;",
+    "label": "none"
+  },
+  {
+    "code": "while(x < 10) x++",
+    "label": "syntactic"
+  },
+  {
+    "code": "int x; System.out.println(x);",
+    "label": "conceptual"
+  },
+  {
+    "code": "System.out.println(\"Hello\"",
+    "label": "syntactic"
+  },
+  {
+    "code": "for(int i = 0; i < 10; i++) { System.out.println(i); }",
+    "label": "none"
+  },
+  {
+    "code": "char c = \"a\";",
+    "label": "conceptual"
+  },
+  {
+    "code": "System.out.println(\"Hello\"",
+    "label": "syntactic"
+  },
+  {
+    "code": "int i = 0; for(i < 10; i++) {}",
+    "label": "syntactic"
+  },
+  {
+    "code": "System.out.println(\"Hello\" + )",
+    "label": "syntactic"
+  },
+  {
+    "code": "float f = 1.0;",
+    "label": "conceptual"
+  },
+  {
+    "code": "for(int i = 0; i < 10; i--) {}",
+    "label": "strategic"
+  },
+  {
+    "code": "System.out.println(\"Hello\" + )",
+    "label": "syntactic"
+  },
+  {
+    "code": "String s = null; s.length();",
+    "label": "conceptual"
+  },
+  {
+    "code": "if (x == 5 || x == 6 && x == 7)",
+    "label": "strategic"
+  },
+  {
+    "code": "if (x == 5 || x == 6 && x == 7)",
+    "label": "strategic"
+  },
+  {
+    "code": "int x; System.out.println(x);",
+    "label": "conceptual"
+  },
+  {
+    "code": "int x == 5;",
+    "label": "syntactic"
+  },
+  {
+    "code": "if (x = 5)",
+    "label": "strategic"
+  },
+  {
+    "code": "for(int i = 0; i < 10; i++) { System.out.println(i); }",
+    "label": "none"
+  },
+  {
+    "code": "if x == 5",
+    "label": "syntactic"
+  },
+  {
+    "code": "int x = 5;",
+    "label": "none"
+  },
+  {
+    "code": "if (x = 5)",
+    "label": "strategic"
+  },
+  {
+    "code": "for(int i = 0; i < 10; i++) { System.out.println(i); }",
+    "label": "none"
+  },
+  {
+    "code": "int[] arr = {1, 2, 3};",
+    "label": "none"
+  },
+  {
+    "code": "int i = 0; for(i < 10; i++) {}",
+    "label": "syntactic"
+  },
+  {
+    "code": "int i = 0; while(i < 10) { i--; }",
+    "label": "strategic"
+  },
+  {
+    "code": "while(true) {}",
+    "label": "strategic"
+  },
+  {
+    "code": "public static void main(String args)",
+    "label": "syntactic"
+  },
+  {
+    "code": "char c = 'a';",
+    "label": "none"
+  },
+  {
+    "code": "if (x > 3) { System.out.println(x);",
+    "label": "syntactic"
+  },
+  {
+    "code": "public static void main(String args)",
+    "label": "syntactic"
+  },
+  {
+    "code": "int x = 'a';",
+    "label": "conceptual"
+  },
+  {
+    "code": "int i = 0; for(i < 10; i++) {}",
+    "label": "syntactic"
+  },
+  {
+    "code": "while(x < 10) { x++; }",
+    "label": "none"
+  },
+  {
+    "code": "if (x = 5)",
+    "label": "strategic"
+  },
+  {
+    "code": "int x = 1; if(x > 0) x = x++;",
+    "label": "strategic"
+  },
+  {
+    "code": "while(x < 10) { x++; }",
+    "label": "none"
+  },
+  {
+    "code": "while(x < 10) x++",
+    "label": "syntactic"
+  },
+  {
+    "code": "System.out.println(\"Hello\" + )",
+    "label": "syntactic"
+  },
+  {
+    "code": "boolean flag = 1;",
+    "label": "conceptual"
+  },
+  {
+    "code": "if(x == 5) { x++; }",
+    "label": "none"
+  },
+  {
+    "code": "String s = 123;",
+    "label": "conceptual"
+  },
+  {
+    "code": "for(int i = 0; i < 10; i--) {}",
+    "label": "strategic"
+  },
+  {
+    "code": "if (x > 3) { System.out.println(x);",
+    "label": "syntactic"
+  },
+  {
+    "code": "while(true) {}",
+    "label": "strategic"
+  },
+  {
+    "code": "int[] nums = new int[0]; nums[0] = 1;",
+    "label": "conceptual"
+  },
+  {
+    "code": "String s = \"test\";",
+    "label": "none"
+  },
+  {
+    "code": "for(int i = 0; i < 10; i--) {}",
+    "label": "strategic"
+  },
+  {
+    "code": "int[] nums = new int[0]; nums[0] = 1;",
+    "label": "conceptual"
+  },
+  {
+    "code": "int[] arr = new int[5]; arr[5] = 10;",
+    "label": "conceptual"
+  },
+  {
+    "code": "if (isTrue = true)",
+    "label": "strategic"
+  },
+  {
+    "code": "if (x > 10 && x < 5)",
+    "label": "strategic"
+  },
+  {
+    "code": "int i = 0; while(i < 10) { i--; }",
+    "label": "strategic"
+  },
+  {
+    "code": "String s = null; s.length();",
+    "label": "conceptual"
+  },
+  {
+    "code": "char c = \"a\";",
+    "label": "conceptual"
+  },
+  {
+    "code": "float f = 1.0;",
+    "label": "conceptual"
+  },
+  {
+    "code": "for(int i = 0; i < 10; i--) {}",
+    "label": "strategic"
+  },
+  {
+    "code": "int x = 5; if(x > 0); { System.out.println(x); }",
+    "label": "strategic"
+  },
+  {
+    "code": "int i = 0; for(i < 10; i++) {}",
+    "label": "syntactic"
+  },
+  {
+    "code": "System.out.println(\"Hello\"",
+    "label": "syntactic"
+  },
+  {
+    "code": "System.out.println(\"Hello World\");",
+    "label": "none"
+  },
+  {
+    "code": "if (x > 10 && x < 5)",
+    "label": "strategic"
+  },
+  {
+    "code": "int result = 5 / 0;",
+    "label": "conceptual"
+  },
+  {
+    "code": "System.out.println(\"Hello\"",
+    "label": "syntactic"
+  },
+  {
+    "code": "float f = 1.0;",
+    "label": "conceptual"
+  },
+  {
+    "code": "String s = \"test\";",
+    "label": "none"
+  },
+  {
+    "code": "if (x > 3) { System.out.println(x);",
+    "label": "syntactic"
+  },
+  {
+    "code": "char c = \"a\";",
+    "label": "conceptual"
+  },
+  {
+    "code": "String s = \"test\";",
+    "label": "none"
+  },
+  {
+    "code": "for(int i = 0; i < 10; i++) { System.out.println(i); }",
+    "label": "none"
+  },
+  {
+    "code": "if (x > 10 && x < 5)",
+    "label": "strategic"
+  },
+  {
+    "code": "String s = 123;",
+    "label": "conceptual"
+  },
+  {
+    "code": "boolean flag = 1;",
+    "label": "conceptual"
+  },
+  {
+    "code": "int[] arr = new int[5]; arr[5] = 10;",
+    "label": "syntactic"
+  },
+  {
+    "code": "char c = 'a';",
+    "label": "none"
+  },
+  {
+    "code": "if (isTrue = true)",
+    "label": "strategic"
+  },
+  {
+    "code": "char c = 'a';",
+    "label": "none"
+  },
+  {
+    "code": "char c = \"a\";",
+    "label": "conceptual"
+  },
+  {
+    "code": "int x = 5; if(x > 0); { System.out.println(x); }",
+    "label": "strategic"
+  },
+  {
+    "code": "String s = null; s.length();",
+    "label": "conceptual"
+  },
+  {
+    "code": "int[] arr = new int[5]; arr[5] = 10;",
+    "label": "syntactic"
+  },
+  {
+    "code": "int[] arr = new int[5]; arr[5] = 10;",
+    "label": "conceptual"
+  },
+  {
+    "code": "int i = 0; for(i < 10; i++) {}",
+    "label": "syntactic"
+  },
+  {
+    "code": "int[] arr = new int[5]; arr[5] = 10;",
+    "label": "conceptual"
+  },
+  {
+    "code": "while(true) {}",
+    "label": "strategic"
+  },
+  {
+    "code": "public static void main(String args)",
+    "label": "syntactic"
+  },
+  {
+    "code": "int x = 1; if(x > 0) x = x++;",
+    "label": "strategic"
+  },
+  {
+    "code": "if (x > 10 && x < 5)",
+    "label": "strategic"
+  },
+  {
+    "code": "if x == 5",
+    "label": "syntactic"
+  },
+  {
+    "code": "int x == 5;",
+    "label": "syntactic"
+  },
+  {
+    "code": "if (x = 5)",
+    "label": "strategic"
+  },
+  {
+    "code": "int i = 0; for(i < 10; i++) {}",
+    "label": "syntactic"
+  },
+  {
+    "code": "if (x > 10 && x < 5)",
+    "label": "strategic"
+  },
+  {
+    "code": "int[] nums = new int[0]; nums[0] = 1;",
+    "label": "conceptual"
+  },
+  {
+    "code": "int[] arr = {1, 2, 3};",
+    "label": "none"
+  },
+  {
+    "code": "int i = 0; for(i < 10; i++) {}",
+    "label": "syntactic"
+  },
+  {
+    "code": "public static void main(String args)",
+    "label": "syntactic"
+  },
+  {
+    "code": "String s = 123;",
+    "label": "conceptual"
+  },
+  {
+    "code": "for int i = 0; i < 10; i++",
+    "label": "syntactic"
+  },
+  {
+    "code": "int x; System.out.println(x);",
+    "label": "conceptual"
+  },
+  {
+    "code": "double pi = 3.14;",
+    "label": "none"
+  },
+  {
+    "code": "return;",
+    "label": "strategic"
+  },
+  {
+    "code": "if (x > 10 && x < 5)",
+    "label": "strategic"
+  },
+  {
+    "code": "float f = 1.0;",
+    "label": "conceptual"
+  },
+  {
+    "code": "System.out.println(\"Hello\" + )",
+    "label": "syntactic"
+  },
+  {
+    "code": "if (x == 5 || x == 6 && x == 7)",
+    "label": "strategic"
+  },
+  {
+    "code": "char c = 'a';",
+    "label": "none"
+  },
+  {
+    "code": "String s = \"test\";",
+    "label": "none"
+  }
+]

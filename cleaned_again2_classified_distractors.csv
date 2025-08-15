@@ -1,0 +1,1285 @@
+topic,option
+Misc,Distractor
+Loops,A ButtonGroup is not necessary for radio buttons to be mutually exclusive
+Objects & Classes,A JFrame object’s content pane does not need an explicitly added BorderLayout manager because it is automatically given one
+Objects & Classes,"A Java class can have only one parent (superclass), and that parent class defines who you are"
+Methods,A call to super() in your constructor puts the superclass constructor on the top of the Stack
+Methods,A child class can override a final method from its parent class
+Objects & Classes,"A child class contains all the members of its parent, whether those members are public, protected, or private"
+Objects & Classes,A child object cannot directly access a private member inherited from a parent
+Objects & Classes,"A class can only extend one other class directly, but it can indirectly extend Object through a chain of superclasses"
+Objects & Classes,A class such as Employee that you create only to extend from is not a concrete class; it is an abstract class
+Control Flow,"A loop with a break statement is not considered an infinite loop, even if it uses 'true' as its condition"
+GUI,A mutually exclusive relationship is automatically created among all JRadioButton components in the same container
+Objects & Classes,A non-public class can be subclassed only by classes in the same package
+Methods,A nonstatic method can override a static method from a parent class
+Methods,A private constructor means nobody can ever make a new object
+Methods,A reference to the subclass object (BuzzwordReport) will always call the subclass version of an overridden method. That’s polymorphism
+GUI,"A scroll pane automatically adds scroll bars to any component it contains, regardless of the component's size or content"
+Methods,"A subclass can directly access all inherited data and methods, including private ones"
+Methods,A subclass can hide a static method in the superclass by declaring a static method in the subclass with the same signature as the static method in the superclass
+Methods,A subclass can override a static method from its superclass
+Methods,A subclass can override private methods as well as public or protected ones
+Methods,A subclass cannot add new methods or instance variables
+Objects & Classes,A subclass cannot change the value of inherited instance variables
+Methods,Abstract classes must not code any methods within them
+Methods,Abstract classes usually contain at least one abstract method
+GUI,Adding a component to a JScrollPane is sufficient to display the component with scroll bars in the GUI without adding the JScrollPane to another container
+Interfaces,Agile software development always results in faster implementation and uses fewer resources
+Methods,"All animals eat in the same way, so the eat() method does not need to be overridden"
+Loops,"All animals have the same behavior for methods like makeNoise() and eat(), which should not be overridden"
+Control Flow,"An abstract class has virtually no use, no value, no purpose in life, unless it is extended"
+Methods,An abstract method has no body!
+Methods,An abstract method means the method must be overridden
+Misc,Android apps can only be developed in Java
+Control Flow,Apple's macOS is directly derived from NeXTSTEP without any modifications
+Data Types,"ArrayList methods can take anything because they use the Object type, which is the ultimate polymorphic type"
+Methods,Assuming that static methods can be called using an object of the class
+Loops,"Beginners sometimes make the mistake of invoking new inside the constructor, leading to infinite recursion"
+Objects & Classes,Belief that instance variables can be accessed directly from outside the class without getters or setters
+Methods,Belief that making a method final requires making the entire class final
+Methods,Believing that 'super' can be used as a standalone call like a constructor
+Methods,Believing that static methods in a parent class can be overridden by child classes
+Control Flow,Break statements can be used freely without making the code difficult to understand or debug
+Misc,Buttons in a BorderLayout do not retain their normal size; they are stretched to fill their regions
+Loops,Casting the Object parameter to a BankAccount object before comparisons can be made is always safe
+Misc,Check boxes and radio buttons function the same way in terms of selection behavior
+GUI,Components in the east and west regions of a BorderLayout are resized vertically to fill the entire region
+GUI,"Components in the east or west regions of a BorderLayout may be resized vertically, not horizontally"
+GUI,Components in the north and south regions of a BorderLayout are resized horizontally to fill the entire region
+GUI,"Components in the north or south regions of a BorderLayout may be resized horizontally, not vertically"
+Loops,Confusing 'information hiding' with 'polymorphism' or 'data deception'
+Methods,Confusion about the necessity of providing arguments when invoking overloaded constructors
+Methods,Confusion about the role of the compiler and JVM in method overriding and polymorphism
+Methods,Constructors must be public
+Loops,Continue statements are always necessary to skip over unwanted iterations in a loop
+Objects & Classes,Creating a new subclass requires revising and recompiling the superclass code
+Loops,"Design patterns guarantee better-quality software with less time, money, and effort"
+Exception Handling,Direct access to a parent's fields does not increase the likelihood of future errors
+Objects & Classes,Each Java subclass has the ability to inherit from zero parent class(es)
+Loops,Enhanced for loops can be used to access the index of an array
+Control Flow,"Equal objects must always have equal hash codes, but students may mistakenly believe that unequal objects must have different hash codes"
+Control Flow,"Every class you write extends Object, even if you don't explicitly declare it"
+Control Flow,Final methods can be overridden in subclasses if needed
+Loops,"For each primitive type, there is a corresponding class in the Java library, called a wrapper class"
+Control Flow,"If a component is added to a BorderLayout without specifying the region, it will be added to the north region"
+Control Flow,"If you change a class, you must recompile any client applications to include the new features"
+Control Flow,"If you want to consider two objects to be equal only when one is a reference to the other, you can use the built-in Object class equals() method"
+Control Flow,Inheritance alone is enough to handle all specific behaviors of different animal types without needing to override methods
+Methods,"Inside the equals method, this always refers to the same object as the one on which the method is invoked"
+Control Flow,Instance methods do not need parameters if they are operating on the current object
+Methods,Instance variables are overridden like methods
+Control Flow,"Instance variables like picture, food, hunger, boundaries, and location are sufficient to represent all unique characteristics of different animal types"
+Objects & Classes,Instance variables of a superclass are not part of the subclass object
+Loops,Java API classes and methods always improve program performance
+Misc,"Java SE 8 added the beginnings of functional programming, but students may misconceive that Java is now primarily a functional programming language"
+Misc,Java is a C++-based language
+Loops,Java is only used for developing Android apps
+Data Types,Java is the most widely used programming language because of the Internet
+Control Flow,Java programs can run on any device without modification
+Loops,"JavaScript is primarily used for animations and interactivity, which might lead students to believe it cannot be used for server-side programming"
+Loops,LAMP is only used for inexpensive web application development
+JShell & Tools,Linux is not widely used on desktop computers because it lacks user-friendly applications
+Loops,"Making a class final is primarily for security reasons, to ensure methods work as originally written"
+Data Types,Method overloading and method overriding are interchangeable concepts
+Methods,Methods in Object are magically available to all classes because they extend Object
+GUI,Misconception: A BorderLayout manager's regions can be referenced directly as properties of the component
+Loops,Misconception: A JButton's background and foreground colors can be set directly without using setBackground and setForeground methods
+GUI,"Misconception: A JList component will always display a scroll bar, regardless of the number of items"
+Methods,Misconception: Abstract methods can have a body
+Misc,Misconception: Adding a JList to a JScrollPane does not affect the appearance of the list
+Data Types,Misconception: Adding an empty string to a number results in a numeric addition
+Objects & Classes,Misconception: An object is destroyed immediately when its reference goes out of scope
+Control Flow,Misconception: An object is only eligible for garbage collection if all references are explicitly set to null
+Data Types,Misconception: BorderFactory can be instantiated with a string argument to create a border
+GUI,Misconception: Components added to a FlowLayout manager are automatically aligned to the left edge of each row
+Data Types,Misconception: Employees should be assigned based on a fixed number of guests without considering other factors like event type or duration
+Objects & Classes,Misconception: Garbage collection happens immediately when an object becomes eligible
+Control Flow,"Misconception: If a method ends, all objects created within it are immediately destroyed"
+Objects & Classes,Misconception: Instance variables are always safe from garbage collection
+Misc,Misconception: Local variables are not important because they are temporary
+Objects & Classes,Misconception: Local variables are not part of an object's behavior
+Exception Handling,Misconception: Local variables are not secure because they are on the stack
+Methods,Misconception: Passing no argument to the JList constructor will create a list that cannot have items added later
+Data Types,Misconception: Single interval selection mode allows only one item to be selected at a time
+Loops,"Misconception: Students could assume that the price must be set before calling setCoverage(), not realizing that the order of operations is important for correct calculations"
+Data Types,"Misconception: Students may assume that the toString() method automatically updates when the object's state changes, not realizing it needs to be called explicitly to get the current state"
+Control Flow,Misconception: Students may believe that interfaces can have implemented methods without using default or static modifiers
+Objects & Classes,"Misconception: Students may think that classes can extend multiple classes, which is not allowed in Java"
+Data Types,"Misconception: Students might assume that arrays can be declared with a size in their type declaration, like 'Of76 [3] i;'"
+Loops,"Misconception: Students might believe that the setPrice() method should not enforce a maximum value, misunderstanding the need for business rules"
+Control Flow,"Misconception: Students might misunderstand polymorphism, thinking that an array of a specific type can hold objects of any unrelated type"
+Objects & Classes,Misconception: Students might think that abstract classes can be instantiated directly
+Objects & Classes,"Misconception: Students might think that anonymous inner classes can use the keywords extends or implements, misunderstanding their syntax"
+Methods,Misconception: Students might think that the constructor of InsuredCar should set the coverage directly instead of calling setCoverage()
+Loops,"Misconception: The + operator always performs addition, regardless of operand types"
+Loops,Misconception: The == operator and the equals method are interchangeable for comparing objects
+Collections & Generics,Misconception: The Employee array in DinnerEvent should not have empty positions; it should dynamically resize based on the number of employees needed
+Objects & Classes,Misconception: The assignment operator creates a new object rather than copying a reference
+Misc,Misconception: The default close operation of a JFrame is to terminate the application
+Methods,Misconception: The end of a method is harmful to local variables
+Control Flow,Misconception: The method that sets the job title should accept parameters to allow flexibility in setting different job titles
+Control Flow,Misconception: The set methods for pay rate and job title should not be abstract if they are expected to have specific implementations in the subclasses
+Methods,Misconception: The setListData method can be used to add items to an existing list without replacing the current items
+Control Flow,Misconception: The substring method always includes the last character specified in the range
+Loops,Misconception: The toString method automatically formats output like printf
+Data Types,Misconception: The toString method is invoked automatically only when using println
+Data Types,Misconception: The toString method must be static
+Data Types,Misconception: You can assign any numeric type to any other numeric type without issues
+Misc,Misconception: You must manually trigger garbage collection to reclaim memory
+Loops,Misconception: x++ and x = x + 1 are always equivalent operations for all data types
+Methods,Misunderstanding that changing method arguments in an overriding method is allowed
+Control Flow,"Misunderstanding that parameters with the same names as instance variables shadow them, requiring the use of 'this' to differentiate"
+Loops,Multiple inheritance is a necessary feature for creating complex class hierarchies in Java
+Objects & Classes,No two objects you declare in a program will ever have the same hash code unless you change one of them
+Loops,"Objective-C is only used for iOS development, which might lead students to believe it cannot be used for other types of software development"
+Objects & Classes,Objective-C was created solely by Steve Jobs at NeXT Inc
+Methods,Overloaded methods are the same as overridden methods
+Methods,Overloaded methods have nothing to do with inheritance and polymorphism
+Methods,Overloading and overriding are the same concept because they both involve methods with the same name
+Methods,"Overriding a method in a child class with the same name and parameter list as a method in the parent class means the child class method completely replaces the parent class method, and the parent class method is no longer accessible"
+Methods,Overriding methods means the original method in the superclass is deleted
+Loops,"PHP is strictly a scripting language, which might lead students to believe it cannot be used for more complex, object-oriented programming"
+Control Flow,Parent classes are more specific than their child classes
+Loops,"Pascal is only relevant for teaching structured programming, which might lead students to believe it has no practical applications today"
+Methods,Passing false to the JRadioButton constructor's selected parameter will make the radio button initially selected
+Methods,Polymorphism allows a subclass to inherit private methods from a superclass
+Data Types,Polymorphism guarantees that any subclass type will have the methods you think you’re calling on the superclass type
+Control Flow,Polymorphism only refers to methods with the same name but different parameter lists
+Loops,"Programmers automatically understand how a superclass works, so they can quickly learn new subclass features without additional effort"
+Methods,Protected data members should be used extensively instead of public methods
+Data Types,"Python is only extensible through classes and programming interfaces, which might lead students to believe it cannot be extended in other ways"
+Misc,Radio buttons can be selected or deselected independently without affecting other buttons in the group
+Methods,Refactoring is only necessary when using agile development methodologies
+Programming Concepts,Software as a Service (SaaS) eliminates all costs associated with software updates
+GUI,"Some students might think that the order of adding components to a JPanel does not matter, when in fact it can affect the layout and behavior of the application"
+Data Types,Static methods and instance methods are interchangeable and can be used in the same way
+Loops,"Java automatically handles invalid input for fields, but input validation must be implemented manually"
+Methods,A parameterless constructor is always available in a superclass
+Misc,"A read-only text field is visually distinct from a regular text field, not realizing it looks like a label with a border"
+GUI,"Adding components directly to the GridLayout is the only way to use it, overlooking the possibility of nesting panels within cells to add multiple components"
+Objects & Classes,"All .class files must be loaded from a local disk, not realizing they can also be loaded over a network"
+Misc,Assembly languages are directly understandable by computers without translation
+Control Flow,Creating multiple instances of the same action listener class for different buttons is unnecessary if they use the getSource method
+Objects & Classes,Private inner classes are the only or best way to implement event listeners in Java GUIs
+Misc,The ActionListener must be registered with each button individually and cannot be shared across multiple buttons
+Control Flow,"The NetBeans version bundled with the JDK is sufficient for all types of Java development, not realizing that Java EE requires a different version"
+Data Types,"The Rental class still uses an array of equipment Strings, not recognizing it has been removed"
+Methods,"The add method is used to add components directly to the window, not understanding the role of the content pane"
+Data Types,"The getText method of a JTextField returns a data type other than a string, when it always returns a string"
+Methods,The main() method is the only method needed in an application class
+Control Flow,"The process for managing multiple JDKs is the same across all operating systems, without understanding the differences between Windows and macOS"
+Control Flow,"The program's output is always correct if it runs to completion, not considering the possibility of nonfatal runtime errors producing incorrect results"
+JShell & Tools,"The rapid decrease in hardware costs directly translates to a decrease in overall software development costs, without considering other factors such as labor and complexity of software projects"
+Data Types,"The return type of a method is determined by the type of variables used within the method, rather than the declared return type"
+Methods,"The setVisibleRowCount method affects the total number of items in the list, rather than just the number of visible rows"
+Control Flow,About the concept of method overriding if they think the equals() method in BankAccount does not replace the one in Object for BankAccount instances
+Objects & Classes,"Objects in programming are always direct analogies to real-world objects, not understanding the abstraction involved"
+Methods,The 'pineapple' method returns the index of the first occurrence of 'apple' instead of the count
+Objects & Classes,"The ActionListener must be a separate class, not realizing that it can also be implemented as an anonymous inner class or a lambda expression"
+Loops,The action of changing colors is automatically handled by the check box without the need for an event listener
+Methods,"The add method of a JPanel automatically positions components, not realizing the importance of layout managers like BorderLayout"
+Loops,The setDefaultCloseOperation method is optional for closing the window properly
+Loops,"The rates for long-distance calls, not realizing they vary by time of day"
+Data Types,"Students could incorrectly assume that all methods in an abstract class must be abstract, similar to interfaces"
+Control Flow,"Students could incorrectly assume that constants in an interface can be modified, not realizing they are implicitly public, static, and final"
+Loops,Students could incorrectly assume that the amount of memory available for the JVM is always fixed and cannot be configured
+Control Flow,"Students could incorrectly assume that the reimbursement policy for travel expenses covers all expenses without limits, rather than having specific caps for each category"
+Control Flow,"Students could incorrectly believe that the enhanced for loop can be used to modify array elements directly, not understanding that it is intended for read-only access to elements"
+Methods,Students could misconceive that a constructor is a method and can be called like a regular method
+Control Flow,"Students could misconceive that all programming languages are equally suited for all types of applications, not recognizing the specific strengths and typical use cases of each language"
+Control Flow,"Students could misconceive that all subclasses must override methods from their superclass, not realizing that it's optional and only necessary when specific behavior is needed"
+GUI,"Students could misconceive that each panel in a GridLayout can only contain one component, not realizing that panels can hold multiple components arranged by their own layout manager"
+Misc,"Students could misconceive that memory is permanent storage, not understanding that RAM is volatile and data is lost when power is off"
+Control Flow,"Students could misconceive that polymorphism only applies to method names, not understanding that it involves method behavior across different classes"
+Loops,"Students could misconceive that the ToppingPanel class is responsible for displaying the total cost, rather than just calculating it for another component to display"
+Methods,"Students could misconceive that the anonymous inner class can extend any class, not realizing that the superclass must have a default constructor"
+Loops,"That setVisible(true) is the only step needed to display a window, not realizing that pack() is often necessary to size the window components correctly before making it visible"
+Collections & Generics,"That the Fibonacci series and streams are directly related to JShell, as they are mentioned in close proximity without clear distinction"
+Methods,That the getSource method returns the component itself rather than an event object associated with the component
+Loops,"That the setLayout method is only for aesthetic purposes, not realizing it determines the arrangement and behavior of components within the panel"
+Control Flow,"That using a BorderLayout manager is the only way to achieve a specific layout, not realizing that there are multiple layout managers available for different needs"
+Misc,"Students could mistakenly think that a JFrame application will terminate when the close button is clicked, not knowing that they must explicitly set the default close operation to EXIT_ON_CLOSE"
+Control Flow,"Students could mistakenly think that if a method is not found in the immediate class, the method call will fail, not realizing the JVM checks up the inheritance hierarchy"
+Data Types,"Students could mistakenly think that the carbon-footprint calculators mentioned are directly related to programming exercises, rather than being tools to understand the concept"
+Control Flow,"Students could mistakenly think that the order of adding components affects their placement in the regions, but the region specified in the second argument determines placement"
+Data Types,"Functional decomposition as merely breaking down code into smaller methods, without recognizing the importance of testing these methods in isolation"
+Objects & Classes,"UML diagrams are only used in the early stages of learning object-oriented programming, rather than being a tool used throughout the development process"
+Objects & Classes,All event listener classes must be private inner classes rather than understanding it's just one option
+Methods,An abstract class cannot have any implemented methods
+Control Flow,"Beta software is always stable, not recognizing that it can still have significant issues"
+Methods,"GetClass() can be overridden, when in fact it is a final method and cannot be overridden"
+Control Flow,"Multiple interval selection mode allows any number of items to be selected without any restrictions, potentially overlooking the need for specific user actions (like holding down the Ctrl key) to select multiple items"
+Loops,"Setting a reference to null deletes the object, rather than just removing the reference to it, leaving the object eligible for garbage collection"
+Control Flow,"The actionPerformed method can have a different method signature than the one specified in the ActionListener interface, when it must match exactly except for the parameter name"
+Data Types,"The charAt method returns a string, rather than a char, which is a primitive type"
+Loops,"The compiler checks the class of the actual object for method existence, rather than the class of the reference variable"
+Methods,"The getCoffeeCost method executes code when a coffee is selected, but it only returns the cost when called by another event listener"
+Misc,The input from the text field is automatically converted to a double without explicit parsing
+Control Flow,"The pack method is specific to the BorderPanelWindow class, rather than being a method inherited from JFrame"
+Data Types,"The return type is not a factor in overloading, confusing it with overriding"
+Control Flow,"The splash screen remains displayed only until the application's window appears, not considering that it might disappear earlier if the application takes longer to load"
+Methods,"The subclass inherits instance variables directly, rather than through methods like getName(), leading to confusion about how inherited methods access private variables"
+Methods,"When calling a method on a superclass reference, the method from the superclass will always be executed, not realizing the actual object's method will be called"
+Loops,"The concept of 'leap of faith' in recursion, thinking it means ignoring errors or not needing to understand the logic behind the recursive call"
+Methods,"The concept of a 'common protocol' in inheritance, thinking it only refers to method availability rather than a logical design structure"
+Loops,"The concept of mashups, thinking they are only related to real estate and mapping services, rather than a broader methodology for combining various web services"
+Misc,"The increment and decrement operators, thinking they do something other than adding or subtracting one"
+Objects & Classes,"The purpose of private inner classes, thinking they are accessible from outside the enclosing class"
+Loops,"The purpose of the 'main' method, thinking it is not needed for running the application since the constructor creates the window"
+Loops,Software directly controls hardware without the need for an operating system or other intermediary layers
+Misc,"The role of an accelerometer, thinking it only responds to motion, without understanding its broader applications"
+Loops,"The use of Javadoc tags, thinking they are mandatory for all methods rather than optional for documentation purposes"
+Control Flow,"All subclasses must override every method from the superclass, not understanding that overriding is only necessary when different behavior is required"
+Loops,"Constructor chaining is optional, not understanding that it is a mandatory process for object creation"
+Loops,"Having a protocol for method names and signatures is unnecessary, not realizing it ensures consistency across implementations"
+Control Flow,"Once a layout manager is set, it cannot be changed, not realizing that the layout manager can be changed at any time by calling setLayout with a different layout manager"
+Objects & Classes,Reuse of classes means copying code rather than using the same class definition to create multiple objects
+Methods,Static methods are inherited in the same way as instance methods
+Loops,"The Internet was originally designed for email, rather than it being a beneficial byproduct"
+Control Flow,"The color and thickness for a line border are set after the border is created, rather than being specified as arguments in the createLineBorder method"
+Loops,"The dot notation is only used for accessing attributes, not realizing it is also used for invoking methods on objects"
+Methods,"The isSelected method is used to select a radio button, rather than just checking its state"
+Control Flow,The setAddress method in NewspaperSubscription should not be abstract because it has specific implementations in subclasses
+GUI,A JFrame is visible by default without adding components to its content pane
+Data Types,"A class can only implement one interface, similar to how a car might only have one set of controls"
+Methods,"A superclass can use a subclass's version of a method, which is not possible due to the lack of reverse inheritance"
+Methods,All Java classes and methods are documented with Javadoc comments
+Loops,"All methods mentioned in documentation are guaranteed to exist in the class, without considering the possibility of documentation errors or outdated information"
+Objects & Classes,All objects are immutable unless explicitly stated otherwise
+Java Versions,"All software labeled as 'feature complete' is entirely bug-free, not recognizing that bugs can still exist"
+Methods,"All subclasses must implement abstract methods, not realizing that only the first concrete subclass is required to do so"
+Objects & Classes,"All subclasses should inherit all behaviors from their superclasses, regardless of context"
+Control Flow,"Because Java runs on billions of devices, it is inherently the most efficient or suitable choice for all embedded systems, not considering the specific requirements and constraints of different devices"
+Methods,"Because an object is stored in an ArrayList<Object>, they can call any method on it without casting"
+Misc,"Changing the color of a check box will change the color of the entire window or application, not just the check box itself"
+Control Flow,"Components in a GridLayout can be different sizes, but all cells are the same size, determined by the largest component"
+Loops,"Console output is always visible to the user, not realizing it is primarily for debugging purposes"
+Methods,"Constructors can have multiple calls to super() or this(), but only one is allowed"
+Objects & Classes,Creating a JFrame object automatically displays the window on the screen
+Control Flow,Creating a new array of a specific type is the same as creating a new instance of that type
+Control Flow,"Determining whether a radio button or check box is selected is done differently, but both use similar methods like isSelected()"
+Data Types,Dynamic method binding does not apply to superclass references pointing to subclass objects
+Control Flow,"Hash codes are unique identifiers across all applications, not realizing they are unique only within the context of a single execution of a program"
+Control Flow,"If a program compiles without errors, it will execute correctly, not recognizing that logic errors can still exist"
+Control Flow,"If a subclass inherits an abstract method, it must always provide an implementation, not realizing the subclass can also be abstract"
+Control Flow,"If a superclass has multiple constructors, a subclass must explicitly call one of them even if a default constructor is present"
+Data Types,"IndexOf with a starting index will search from the next character, but it includes the character at the starting index"
+Control Flow,"Interfaces can contain method bodies, not recognizing that interfaces only specify method signatures without implementation"
+Data Types,"Interfaces can contain non-abstract methods, not realizing that all methods in an interface are abstract by default unless they are default or static methods"
+Control Flow,Item events for JCheckBox are handled differently than for JRadioButton or JButton
+Methods,Local variables can be accessed outside the method they are declared in
+Methods,"Omitting the second argument in the add method will result in an error, but the component is actually added to the center region by default"
+Loops,"Operating systems only provide convenience for users, without recognizing their role in ensuring applications execute safely, efficiently, and concurrently"
+Control Flow,"Passing a specific value like '0' to a constructor is a standard way to indicate a default value, without considering the implications or the need for clear documentation"
+Methods,"Placing the @Override annotation on the same line as the method header is incorrect, when it is actually a matter of style preference"
+Misc,"Radio buttons are mutually exclusive by default, not understanding that they must be added to a ButtonGroup to achieve this behavior"
+Misc,Setting the background color of the panel also sets the background color of the entire JFrame
+Methods,The 'buildPanel' method automatically adds the panel to the frame without explicitly calling 'add(panel)'
+Control Flow,The 'dub' method creates a new array with doubled values instead of modifying the existing array
+Loops,The 'speak()' method is automatically available for all objects in an array without ensuring the method is defined in the superclass or correctly overridden in subclasses
+Methods,The @Override annotation is applicable to static methods
+Data Types,The ActionListener interface methods are automatically implemented without defining them in the CalcButtonListener class
+GUI,"The BMI calculator provides a definitive health diagnosis, rather than being a general guideline"
+GUI,"The FlowLayout manager will automatically resize the window to fit all components, not understanding that it only manages the layout within the existing window size"
+Methods,"The JCheckBox components trigger events that automatically update the total cost, misunderstanding that the getToppingCost method must be explicitly called to get the total cost"
+Loops,"The JDK installation directory is the same for all platforms, not recognizing that it varies by operating system and JDK version"
+Data Types,"The ListSelectionListener interface is automatically available without importing, but it requires an explicit import from the javax.swing.event package"
+Methods,"The alignment in FlowLayout can only be set using a method call, without understanding that it can be set during the construction of the FlowLayout object"
+Loops,"The base case in recursion is not necessary or can be arbitrary, without understanding its role in terminating the recursive calls"
+Control Flow,The compiler can automatically recognize the specific type of an object retrieved from an ArrayList<Object>
+Loops,"The do-while loop is the same as a while loop, not realizing that the do-while loop guarantees the loop body runs at least once"
+Methods,"The getBagelCost method automatically updates the cost when a selection is made, without understanding that it needs to be called explicitly to retrieve the current selection's cost"
+Misc,"The historical context of a programming language (e.g., developed by the DOD or IBM) directly impacts its current usage or relevance, without understanding how languages evolve and adapt over time"
+Methods,The main method's header can vary depending on the class it is in
+Control Flow,The number of terms in the series for estimating ex does not significantly affect the accuracy of the result
+Control Flow,"The order of adding panels to the BorderLayout affects their placement, not understanding that the specified region (NORTH, SOUTH, etc.) determines placement"
+Control Flow,The pow method provided can handle any size of integer result without modification
+Exception Handling,"The program crashing due to an exception is always related to hardware issues, not understanding that software errors can also cause crashes"
+Control Flow,The return type of a method dictates the necessity of certain control structures (like if-else) within the method
+Control Flow,"The rules for variable scope differ between primitives and reference variables, not realizing that the scope rules are the same for both"
+Loops,The set method for price in PhoneCall should be abstract because other methods are abstract
+Loops,The space for an object is allocated in the declaring class rather than on the heap
+Methods,The text passed to a JButton constructor is not what appears on the button
+Loops,"ToString() provides a meaningful string representation of an object by default, rather than needing to be overridden for useful output"
+Loops,"Using ArrayList<Object> is the same as using ArrayList<Dog> when adding Dog objects, not realizing the implications for type safety and method accessibility"
+Loops,"Using System.out.println for debugging is only applicable to GUI applications, not realizing it is a general debugging technique applicable to all types of applications"
+Control Flow,"You cannot instantiate objects of child classes if the parent class is abstract, but you can instantiate child classes as long as they implement all abstract methods"
+Misc,1 kilobyte is exactly 1000 bytes instead of 1024 bytes
+Control Flow,"Java is the only or best language for all programming tasks, not recognizing that different languages have different strengths and are suited to different types of projects"
+Misc,"Moore's Law guarantees indefinite exponential growth in computing power, not realizing that physical and economic limitations may eventually slow down this trend"
+GUI,"A GridLayout allows multiple components in a single cell, when in fact it limits each cell to only one component"
+Data Types,"A class can inherit from multiple abstract classes, confusing it with the ability to implement multiple interfaces"
+Data Types,"A constructor Boo(int, String) exists when it does not"
+Control Flow,"A constructor in a subclass must always take the same parameters as the superclass, rather than understanding that it can take additional parameters specific to the subclass"
+GUI,A layout manager only positions components and does not resize them when the container is resized
+Control Flow,"A read-only text field is a different component from JTextField, rather than a JTextField with a specific property set"
+Methods,"Abstract methods can have a body, but abstract methods cannot have an implementation and must be overridden in derived classes"
+Methods,Adding methods to a class will never break existing code
+Exception Handling,"All errors are detected at compile time, not understanding that some errors, like division by zero, occur at runtime"
+Methods,"An anonymous inner class can access any variable from the enclosing method, not realizing that the variables must be final or effectively final"
+Control Flow,"Boolean methods need an if-else statement to return a boolean value, rather than returning the boolean expression directly"
+Data Types,Changing only the return type of a method is enough to overload a method
+Data Types,Constructors can have a return type or use a return statement
+Objects & Classes,"Creating an instance of a subclass like SimpleWindow is the same as creating an instance of the superclass JFrame, not realizing that the subclass can have additional behaviors and properties"
+Methods,"Declaring a class as final only affects the class itself, not realizing that it also makes all of its methods final and un-overridable"
+Control Flow,"Entering non-integer data for an integer input will always result in the same type of exception, not realizing that different inputs can cause different exceptions"
+Control Flow,Failing to implement an interface method only results in a compiler error without understanding that the class must be declared abstract if it doesn't implement all interface methods
+Data Types,"Fields can only consist of characters or bytes, not understanding that fields can also be composed of other data types"
+Misc,High-level languages are always preferable to machine and assembly languages in all contexts
+Data Types,Inheritance automatically customizes the subclass without needing explicit customization or addition of unique characteristics
+Data Types,Integer overflow errors are due to a bug in their code rather than a limitation of the data type
+Control Flow,"Learning Java is the only prerequisite to developing Android apps, overlooking the need for understanding Android-specific frameworks and tools"
+Data Types,"Making a class an interface automatically requires all subclasses to implement all methods, not understanding the distinction between interfaces and abstract classes"
+Methods,"Methods are executed automatically without needing to be called explicitly, similar to how pressing a gas pedal sends a message to the car"
+Control Flow,Modifying a class to include protected fields is always safe and doesn't affect encapsulation negatively
+Control Flow,"Modifying an object through a method or assignment creates a new object, rather than altering the existing object"
+Misc,"Once bytecode is compiled, it does not need to be compiled again, not understanding the role of JIT compilation during execution"
+Loops,"Open-source software is always free, not understanding that it can be used for commercial purposes as well"
+Methods,Overriding a method in a subclass means the superclass method is deleted or no longer exists
+Loops,"Polymorphism is only useful for method arguments, not realizing its broader applications in designing systems that can handle new, unforeseen types"
+Misc,"Pseudorandom numbers generated by a computer are truly random, not understanding the concept of pseudorandomness"
+Misc,"Release candidates are completely bug-free, not understanding that they can still have minor bugs"
+Loops,"Simply writing an event listener is enough for it to execute, without realizing it must be registered with the correct component"
+Objects & Classes,"Subclasses do not need to be recompiled when the superclass changes, without understanding potential compatibility issues"
+Loops,"The @Override annotation is necessary for a method to override a parent class method, when in fact it is optional"
+Data Types,"The ALU operates independently, not realizing it is integrated into the CPU in modern systems"
+Methods,"The BorderFactory methods create borders directly, rather than returning Border objects that need to be set using setBorder"
+GUI,"The BorderLayout manager allows multiple components in the same region, not understanding that only one component can be placed in each region at a time"
+Misc,"The IS-A relationship works in both directions, when it only works in one direction"
+Data Types,"The World Wide Web and the Internet are the same thing, rather than understanding that the Web is a service that operates over the Internet"
+Control Flow,"The absence of a specialized panel for certain components (like the Calculate and Exit buttons) is arbitrary, rather than based on specific design considerations"
+Methods,"The access level of overloaded methods must remain the same, when in fact they can vary"
+Control Flow,"The arguments for createEmptyBorder, createLineBorder, and createTitledBorder methods are optional, not realizing they are required to specify the border properties"
+Methods,"The equals() method in the BankAccount class overloads the Object class equals() method, when in fact it overrides it"
+Control Flow,"The hash code displayed by the toString() method is the memory address of the object, not knowing it is a calculated identifier"
+Control Flow,The iterative method for calculating power or factorial must be more efficient than the recursive method without considering the specific implementation details
+Control Flow,"The lambda expression's empty parentheses always indicate no parameters, not understanding that parameters can be included if needed"
+Control Flow,The only language a computer can understand is a specific programming language rather than machine language
+Methods,"The order of statements in a constructor does not matter, but the order of super() or this() is crucial"
+Loops,"The parameter name in the actionPerformed method must be 'e', when in fact it can be any legal variable name"
+Methods,"The setSize method alone is sufficient to display the window, without needing to call setVisible(true)"
+Loops,"The showMessageDialog method automatically formats the output string, not realizing they must manually concatenate strings and variables"
+Methods,The size of a window is set automatically without needing to call the setSize method
+Objects & Classes,The splash screen command is 'java splash:GraphicFileName ClassFileName' instead of 'java -splash:GraphicFileName ClassFileName' due to the missing hyphen in the example
+Control Flow,"The substring method modifies the original string, not understanding that it returns a new string starting from the specified index"
+Control Flow,"The toUpperCase and toLowerCase methods modify the original string, not realizing that strings are immutable and these methods return a new string object"
+Control Flow,"The version number format is consistent across all JDKs, not realizing that different JDK versions can have different numbering schemes (e.g., 1.8.0_121 vs. 9)"
+Control Flow,"They can specify which cell a component should be placed in when using GridLayout, but components are actually added in the order they are added to the container"
+Loops,They can start writing code for large and complex systems without any prior analysis or design process
+Loops,"They need to fully understand and trace through the entire flow of execution for recursive methods, rather than using the 'leap of faith' approach"
+Loops,"Using Object as a reference type for all methods is beneficial for flexibility, not realizing it defeats type-safety"
+Loops,Void methods cannot perform any actions or computations since they do not return a value
+Methods,"When an object is passed as a parameter, the method receives a copy of the object, rather than a reference to the original object"
+Objects & Classes,Writing event listener classes as private inner classes is the only way to implement event listeners
+Methods,You can use both this() and super() in the same constructor
+Misc,They need to fully understand the entire Java library source code to use it effectively
+Data Types,JShell with a graphical shell or interface due to the mention of 'computer-generated art' and 'fractal' in the context of the shell
+Methods,Instance methods do not use dynamic binding by default in Java
+Control Flow,Lambda expressions are specifically for functional interfaces
+Control Flow,"Method overloading with method overriding, especially when parameter types differ but method names are the same"
+Data Types,"The Internet with the World Wide Web, thinking they are the same thing"
+Methods,"The JCheckBox constructor with a 'radio check box', thinking it behaves like a radio button"
+Objects & Classes,It is an actual object
+Misc,A variable can be alive but not in scope
+Methods,"The concept of sending messages to objects with direct manipulation of the object's attributes, rather than understanding it involves calling methods"
+Loops,"Instance variables live as long as the object, while local variables are tied to the method's execution"
+Data Types,"The storage of primitive types and object references, thinking both are stored the same way"
+Methods,"When to use 'this' and 'super', thinking they always refer to the same method"
+Methods,Students may incorrectly assume that 'super.someMethod()' can be used to access private methods of the superclass
+Methods,Students may incorrectly assume that a subclass cannot add new methods or instance variables beyond what it inherits from the superclass
+Objects & Classes,"Students may incorrectly assume that abstract classes cannot be inherited from, due to the false statement in the 'TWO TRUTHS & A LIE' section"
+Data Types,"Students may incorrectly assume that casting an object reference changes the actual object type, rather than just the type of the reference"
+Loops,Students may incorrectly assume that changing only the return type of a method is sufficient for overloading
+Data Types,"Students may incorrectly assume that character literals can contain more than one character, not realizing they must be a single character enclosed in single quotes"
+Control Flow,"Students may incorrectly assume that inheritance automatically handles all specific behaviors of a subclass, without needing to implement or override methods for specific functionality"
+Data Types,"Students may incorrectly assume that interfaces can be instantiated directly, not understanding that they must be implemented by a class"
+Loops,"Students may incorrectly assume that registering an event listener is optional, not realizing that it is necessary for the event listener to respond to events from a GUI component"
+Misc,Students may incorrectly assume that the MPG calculation is based on a fixed number of miles rather than being dependent on user input
+Java Versions,"Students may incorrectly assume that the PATH environment variable automatically updates with new JDK installations, not realizing they need to manually update it to include the new JDK's bin directory"
+Loops,"Students may incorrectly assume that the enhanced for loop can be used directly with strings, not realizing that strings need to be converted to a character array first"
+Loops,"Students may incorrectly assume that the main method must be included in every class, rather than understanding it is only necessary in the class that serves as the entry point for the application"
+Control Flow,"Students may incorrectly assume that the pounds variable can be modified after being accessed by the anonymous inner class, not understanding the concept of effectively final variables"
+Exception Handling,Students may incorrectly believe that arrays in Java automatically handle out-of-range access without needing explicit error handling
+JShell & Tools,"Students may incorrectly believe that the growth of big data is solely due to the creation of new data, without considering the role of data duplication and redundancy"
+Loops,"Students may incorrectly believe that the reference type and the object type must always be the same for polymorphism to work, not understanding that polymorphism allows a superclass reference to point to a subclass object"
+Data Types,Students may incorrectly believe that toString() and equals() methods in the Object class are abstract and must be overridden in subclasses
+Methods,Students may incorrectly believe that you can override methods declared final in the superclass or methods declared within a final class
+Methods,"Students may misconceive that all methods in a superclass are inherited by subclasses, without realizing that only inheritable methods (often public methods) are inherited"
+Control Flow,"Students may misconceive that braces in lambda expressions are always necessary, not knowing that they can be omitted if the implementation is a single line of code"
+JShell & Tools,"Students may misconceive that cloud computing always saves money, not considering scenarios where it might not be cost-effective"
+Loops,"Students may misconceive that polymorphism is primarily about making code easier to extend and maintain, without fully grasping how it allows for dynamic method binding and flexibility in code execution"
+Loops,"Students may misconceive that the 'inRange' function is efficient for counting occurrences of each score when it actually traverses the entire array multiple times, leading to inefficiency"
+Misc,"Students may misconceive that the abundance of silicon directly correlates to the low cost of computers, not recognizing the complexities and costs involved in manufacturing silicon chips"
+Misc,Students may misconceive that the sales tax rates should be added directly to the total sales amount rather than applied as a percentage
+Loops,"Students may misconceive that the subclass constructor can complete before the superclass constructor, due to the analogy of parent and child"
+Data Types,"That Java supports multiple inheritance from classes, when in fact it only supports multiple inheritance through interfaces"
+Data Types,"That abstract classes cannot contain any concrete methods, similar to interfaces"
+Methods,"That all methods must have a return value, not understanding the distinction between void methods and value methods"
+Methods,"That overloaded methods are recursive, especially when one overloaded method calls another"
+Control Flow,"That setting the CLASSPATH is the same on all operating systems, not knowing that the syntax differs between Windows and Unix-based systems"
+Misc,That the garbage collector is a sentient or conscious entity due to the anthropomorphic language used
+Methods,"That you can call a superclass constructor by using its name, like Employee(), instead of using super"
+Control Flow,"Students may mistakenly think that the JDK version number alone determines the presence of new features or security updates, not realizing the significance of minor and security update numbers"
+Misc,"Students may mistakenly think that the JFrame's default close operation is to exit the application, not realizing it needs to be explicitly set with setDefaultCloseOperation"
+Misc,"Needs to be manually triggered by the programmer, rather than an automatic process handled by the system"
+Data Types,"Polymorphism, thinking it only involves inheritance, and not recognizing the role of interfaces in achieving polymorphism"
+Data Types,"Java is purely an interpreted language, not recognizing its mixture of compilation and interpretation"
+Loops,"A file must always be organized into records, rather than understanding that a file can contain arbitrary data in arbitrary formats"
+Objects & Classes,A parent class inherits from a child class
+Objects & Classes,"A reference to an abstract superclass object can hold a concrete subclass object reference, thinking that abstract references cannot store concrete objects"
+Methods,A subclass constructor must always pass arguments to the superclass constructor
+Loops,"A variable's state persists only while the method is running, not realizing it persists as long as the method's stack frame is on the stack"
+Methods,Abstract methods can have a body or implementation in the abstract class
+Methods,"Abstract methods can have a body, but in Java, abstract methods cannot have a body"
+Control Flow,An Object reference to a subclass object cannot access any subclass-specific methods
+Control Flow,Having a different parameter type (BankAccount vs Object) in the equals() method means it is overloaded rather than overridden
+Control Flow,"Having an Object reference to an instance of a subclass (e.g., Dog) allows calling subclass-specific methods directly"
+Misc,High-level languages do not require any translation to be executed by a computer
+Methods,Methods in a subclass can access private data fields of the superclass directly
+Methods,"Overloaded constructors can have the same argument list, not realizing that each must have a unique parameter list"
+Data Types,"Polymorphism requires method names to be identical across classes, not realizing it involves the behavior of objects through a common interface"
+Control Flow,Polymorphism with Object type references means objects lose their specific type characteristics permanently
+Methods,"Private instance variables in a superclass do not affect subclasses, not realizing that methods in the superclass may rely on these variables"
+Control Flow,Recursive methods cannot be used in conjunction with conditional statements
+Methods,The 'banana' method is calculating the sum of the array elements instead of the product
+Loops,"The ListSelectionListener is responsible for displaying the selected item, rather than just handling the selection event"
+Methods,The absence of a subclass constructor means the subclass cannot be instantiated
+Loops,"The actionPerformed method is automatically called without user interaction, not realizing it is triggered by an event"
+Java Versions,"The conversion factor is automatically applied, not realizing they must explicitly multiply the parsed double by the conversion constant"
+Data Types,The free IntelliJ IDEA Community Edition supports Java EE development when it only supports Java SE
+Methods,"The getSource method is the only way to determine which button was clicked, not realizing other methods like getActionCommand exist"
+GUI,"The order of adding components to a GridLayout does not matter, when it actually determines their placement in the grid"
+Loops,The setLayout method is not necessary for the components to be displayed properly
+Loops,The setVisible method is responsible for both displaying the window and handling all interactions within it
+Objects & Classes,Using 'new' is necessary to create a reference to a superclass object
+Objects & Classes,"The IS-A relationship, thinking it applies to any extension rather than a logical inheritance relationship"
+Misc,"The IS-A relationship, thinking it works both ways rather than in only one direction"
+Objects & Classes,"Protected data members are accessible to all classes, not just subclasses and classes in the same package"
+Control Flow,"The difference between gross and net revenue, thinking they are the same"
+Objects & Classes,"Swing and AWT components are completely separate, rather than realizing they share a common ancestor in the Component class"
+Loops,"The purpose of abstract methods, thinking they are meant for code reuse rather than defining a protocol for subclasses"
+Data Types,"The purpose of abstract methods, thinking they are pointless since they don't provide direct functionality"
+Data Types,"The purpose of carbon-footprint calculators, thinking they provide precise measurements rather than estimates"
+Methods,"The purpose of the main method, thinking it has to do more than just instantiate a class"
+Misc,"The role of IP addresses, thinking they are static and do not change"
+Control Flow,The placement of components (like radio buttons and labels) is automatically handled without specifying a layout manager
+Control Flow,"The role of the JVM, thinking it is only a part of the JDK, rather than recognizing its broader role in executing Java bytecode across different platforms"
+Loops,"The role of the content pane, thinking it is visible or has a border, rather than being an invisible container for components"
+Data Types,"The use of 'StringBuffer' and think it is the only way to concatenate strings, not knowing about alternatives like 'StringBuilder' or simple string concatenation"
+Objects & Classes,"Students may misuse inheritance to reuse code without considering the IS-A relationship, leading to inappropriate class hierarchies"
+Control Flow,"Students may not realize that if a constructor requires an argument, it must be provided, and they cannot compile the code without supplying the necessary arguments"
+Control Flow,"Students may not realize that if they don't write a constructor, the compiler provides a default one"
+Control Flow,"Students may not realize that instance variables can keep objects alive as long as the instance itself is alive, leading to potential memory management issues if not properly handled"
+Data Types,"Students may not realize that the Object class can be used to hold any type of object, leading to confusion about how to create a truly generic list"
+Control Flow,Students may not realize the importance of considering future use cases and the potential need for different behaviors in different contexts
+Loops,"Students may not realize the importance of using variables to hold intermediate values for debugging purposes, thinking that they can write complex expressions without intermediate checks"
+Control Flow,"Students may not understand that a constructor is mandatory for every class, even if not explicitly defined"
+Methods,Students may not understand that code after a return statement in the same block is considered dead code and will lead to an 'unreachable statement' error
+Methods,A constructor is just a method because it uses parentheses like a method call
+GUI,"JavaFX lighting effects are a feature of JShell, rather than a separate JavaFX capability, due to the way lighting effects are discussed in the context of the shell"
+Misc,"A JList automatically displays a scroll bar when it contains too many items, but it does not"
+Misc,"A JTextField can only be used to input text, not realizing it can also display text"
+Control Flow,"A class always has a no-argument constructor if they don't explicitly define one, not realizing that this is only true if no other constructors are defined"
+Control Flow,"A constructor with parameters can be omitted if they want to use default values, not realizing that a no-argument constructor is needed for that"
+Methods,"A method to determine a winner in a game class can be implemented without considering all possible edge cases, such as ties or incomplete games"
+Control Flow,A subclass cannot have different behavior from its superclass because it inherits functionality from the superclass
+Data Types,A subclass constructor must have the same number or types of parameters as its superclass constructor
+Control Flow,"A superclass object can be instantiated directly, even if it is abstract"
+Objects & Classes,Abstract classes can be instantiated directly
+Methods,"Abstract classes can have fully implemented methods, not realizing that abstract methods must be declared without an implementation"
+Data Types,"Abstract classes cannot contain any concrete methods, confusing them with interfaces"
+Methods,"Abstract classes cannot have constructors, but they can have constructors to initialize fields"
+Methods,Abstract classes cannot have non-abstract methods
+Methods,Abstract methods can have a method body
+GUI,"Adding components directly to a JFrame is the same as adding them to the content pane, not realizing that components are actually added to the content pane"
+GUI,"Adding components to a panel automatically arranges them in a grid, without realizing that the panel itself uses a FlowLayout by default"
+Misc,All logical units of a computer are the same and do not have distinct functions
+Data Types,"All methods in an interface must be implemented in every subclass, not realizing that only the classes implementing the interface need to provide implementations"
+Control Flow,"All objects with an IP address are part of the IoT, without understanding that IoT specifically refers to objects that can send data automatically over the Internet"
+Control Flow,"All paths through a method must have a return statement, but they might not realize that if a condition is not met, the method can end without returning a value, leading to a 'missing return statement' error"
+Control Flow,An ArrayList<Object> can store and retrieve specific types like Dog without casting
+Control Flow,An abstract class can be instantiated if they misunderstand the statement about instantiating a Dog object
+Control Flow,"An instance variable inside an object will always live as long as the object itself, not realizing that if the object becomes eligible for garbage collection, so do its instance variables"
+Loops,"An interface is the same as an abstract class, not understanding that interfaces define a contract without any implementation, while abstract classes can provide some implementation"
+Control Flow,An object can only be treated as its specific class type and not as a more general type like Object
+JShell & Tools,"Any text editor can be used to write Java code, not realizing that some editors provide more features that can aid in development"
+Data Types,Array indices can be non-integer or incorrectly use characters like 'O' and 'l' instead of '0' and '1'
+Objects & Classes,"Both radio buttons and check boxes can be added to a ButtonGroup object, when typically only radio buttons are used"
+Methods,"Both super() and this() can be used in the same constructor, but they cannot"
+Control Flow,"Casting an object to a specific type changes the actual type of the object, rather than just the reference type"
+GUI,Changing a JButton component's action command will also change the text displayed on the button
+Data Types,Changing only the return type of a method is enough to override a method
+Misc,Check boxes are always grouped in a ButtonGroup like radio buttons
+Loops,"CompareTo is used for checking equality, but it is actually used for determining the order of strings"
+GUI,"Components are not resized when placed in a GridLayout, but they are automatically resized to fill the cell"
+Misc,"Constants like CREAM_CHEESE are defined, but they are not present in the code snippet, leading to confusion about where these constants are declared"
+Loops,Constructors are not necessary for abstract classes since they cannot be instantiated directly
+Control Flow,Constructors in subclasses cannot have different parameters than those in the superclass
+Methods,"Constructors in subclasses must always require parameters, not realizing they can have no-argument constructors"
+Objects & Classes,Declaring a reference variable automatically creates an object on the heap
+Loops,"Extending JFrame is always the best approach for creating GUI applications, not realizing that it can lead to complex and cumbersome code when dealing with many components"
+Control Flow,"If a method is empty, it is automatically abstract, even if not explicitly declared as abstract"
+Control Flow,"If a superclass has a default constructor, a subclass must also have a constructor"
+Control Flow,"If they know the actual type of an object (e.g., Dog), they can call methods specific to that type even if the reference is of type Object"
+Control Flow,Importing java.util.* is unnecessary if only using Scanner
+Misc,"Input devices only include traditional peripherals like keyboards and mice, not realizing that modern devices such as GPS, accelerometers, and voice assistants are also input devices"
+Control Flow,Instance variables can be accessed directly from other classes if they are declared as private
+Objects & Classes,Local variables and instance variables both live on the stack
+GUI,"Multiple components can be added to the same region in a BorderLayout, but each region can only hold one component at a time"
+Objects & Classes,Multiple inheritance is allowed in Java
+Objects & Classes,"Object-oriented programming completely hides all messy details, making them irrelevant"
+Objects & Classes,"Objects can access the attributes of other objects directly, similar to how a car might know the fuel level of another car"
+Exception Handling,"Once a program compiles successfully, it will always execute correctly, not realizing that runtime errors can still occur"
+Loops,"Once a reference goes out of scope, the object it referred to is immediately destroyed, not understanding that it becomes eligible for garbage collection but is not immediately collected"
+Exception Handling,"Open-source software is less secure than proprietary software, not recognizing that open-source code is often scrutinized by a larger audience, leading to quicker error detection and removal"
+Methods,"Overriding a method can change its access level to be more restrictive, such as changing a public method to private"
+Data Types,"Polymorphic arguments in methods can only accept objects of the declared type, not understanding that any subclass object can be passed"
+Methods,Private data fields can be accessed directly from outside the class without using public methods
+Methods,Private instance variables and methods of a superclass can be inherited by a subclass
+Methods,"Private methods can be accessed by any class, not just the class in which they are defined"
+Control Flow,"Putting methods in a superclass automatically provides functionality to all subclasses, even if the methods are abstract"
+JShell & Tools,"SetDefaultCloseOperation(JFrame.EXIT_ON_CLOSE) is the only way to close a JFrame, not realizing there are other options like DISPOSE_ON_CLOSE, HIDE_ON_CLOSE, and DO_NOTHING_ON_CLOSE"
+Loops,"SetSelectionMode(ListSelectionModel.SINGLE_SELECTION) is the only selection mode available for JList, not knowing about MULTIPLE_INTERVAL_SELECTION and SINGLE_INTERVAL_SELECTION"
+Misc,"Setting a field to an invalid value will automatically revert it to a default value, but this behavior must be explicitly programmed"
+GUI,"Setting a layout manager on a JPanel automatically applies to all components within the JFrame, not realizing that each container can have its own layout manager"
+Objects & Classes,"Setting a variable to null completely removes the object from memory, rather than just removing the reference to it"
+Loops,Setting the JAVA_HOME environment variable is only necessary for Java DB and not for other Java applications
+Loops,"Setting the background color of a component will also change the text color, but background and foreground colors are set separately"
+Misc,Simply creating a JButton and adding it to a JFrame will automatically handle button clicks without needing an event handler
+Control Flow,"Sorting an array of objects can only be done by one attribute at a time, rather than allowing continuous sorting by different attributes"
+Methods,Static methods can use the 'super' keyword to access parent class methods
+Methods,Subclass methods can access private fields of the superclass directly
+Loops,"The 'setVisible(true)' method call is optional for displaying the window, not understanding that it is necessary to make the window appear"
+Misc,"The BorderLayout manager resizes the buttons within the JPanels, rather than the JPanels themselves"
+Methods,"The ButtonGroup automatically adds the buttons to the panel, but they must be added separately with the add method"
+Loops,"The JDK version number format has always been the same, not realizing that it changed starting with Java 9"
+Interfaces,"The JList component automatically updates the JTextField with the selected item, without needing to implement a ListSelectionListener"
+Loops,The JVM is only an interpreter and not realize it also uses JIT compilation for performance
+Misc,"The NO_COFFEE constant is defined like the other coffee constants, but it is not present in the code"
+Control Flow,"The PATH environment variable is the same across all operating systems, not realizing that the steps to set it differ by OS"
+Control Flow,The WINDOW_WIDTH and WINDOW_HEIGHT constants can be modified after the window is created because they are declared as 'final'
+Loops,The actionPerformed method is automatically executed without any user interaction
+Misc,"The background color change applies to the entire window rather than just the content pane, label, and check boxes"
+Loops,"The class name 'EventObject' is appropriate for a JFrame subclass, not realizing that it might cause confusion with the existing 'EventObject' class in the Java API"
+Loops,The default layout manager for a JFrame object’s content pane is FlowLayout instead of BorderLayout
+Control Flow,The description field in the Rock class can be set directly rather than being set to 'Unclassified' by default
+Data Types,"The end index in substring is inclusive, but it is actually exclusive"
+Loops,"The enhanced for loop provides more control over the iteration process than the standard for loop, not recognizing that it abstracts away the index-based iteration details"
+Loops,"The equals() method automatically checks for content equality between objects, rather than needing to be overridden for custom behavior"
+Misc,"The equipment fee is included in the base price calculation, not realizing it is added separately"
+Control Flow,"The equipment type is always set to the input value, not realizing it defaults to 'other' if out of range"
+Control Flow,"The event listener for buttons must always be placed in the same class that creates the buttons, rather than understanding that it can access methods from other objects if those objects are accessible"
+Control Flow,"The getSelectedIndex method returns 21 if no item is selected, but it actually returns -1"
+Methods,"The getSource method returns the selected radio button itself, rather than the event source"
+Loops,"The gross revenue and net revenue for theater ticket sales are the same, not accounting for the deduction paid to the movie company"
+Objects & Classes,The import statement 'import javax.swing.*;' is optional when using Swing classes
+Loops,"The initializer in a for loop runs every time the loop iterates, rather than just once at the beginning"
+Control Flow,"The key logical units of the computer are only a few specific components, not understanding the broader range of components involved"
+Objects & Classes,The keyword 'super' refers to the child class instead of the parent class
+Methods,The keyword 'this' can be used to access an overridden method in a base class
+Loops,The loop in the 'loop' method will always terminate without understanding the conditions under which it might not
+Methods,The main method must always be in a separate file from the class it instantiates
+Data Types,The method called is determined by the reference type rather than the actual object type
+Data Types,"The method nextInt(n) generates numbers between 0 and n, rather than 0 and n-1"
+Objects & Classes,"The name of the inner class must be related to the component it handles, but it can actually be any name"
+Objects & Classes,The new operator is not necessary to create an object of a class
+Control Flow,"The original string is modified when using methods like toUpperCase or replace, not realizing that these methods return a new string and do not change the original string"
+GUI,"The panel size is automatically adjusted to fit the components, not realizing that the window size is explicitly set using setSize"
+Control Flow,The phases of Java program development are interchangeable or do not need to be followed in a specific order
+Control Flow,"The reference type and the object type must always be the same, not understanding that polymorphism allows them to be different"
+Loops,"The setBackground and setForeground methods change the color of the button itself, rather than the background and text color of the button"
+Methods,The setTitle method sets the title of the panel instead of the window
+Data Types,"The toString method is explicitly called when using System.out.println with objects, rather than it being called automatically"
+Misc,"The visibility of the window is automatically managed by the layout managers, not recognizing the need to explicitly call setVisible(true)"
+Misc,The window will automatically display without calling setVisible(true)
+Methods,"They need to create an instance of the BorderFactory class to use its methods, not realizing that they are static methods"
+Control Flow,They need to manually specify the exact location of components within a window instead of using a layout manager
+Objects & Classes,They need to redefine fields in a subclass that are already defined in the superclass
+Data Types,"Using an interface allows a class to inherit non-private, non-overridden members from another class, which is not the case"
+Objects & Classes,"Using inheritance is the only way to reuse code, not realizing that composition and other design patterns can also achieve code reuse"
+Data Types,"When a class extends another class, it literally copies all methods into the subclass, rather than understanding that it inherits the ability to use those methods"
+Data Types,"You can call methods on an object based on the actual object type, not the reference variable type"
+Objects & Classes,"They can access private superclass members directly from a subclass, not understanding the access control restrictions"
+Objects & Classes,They can instantiate an abstract class directly
+Methods,They can use both super() and this() in the same constructor
+Loops,"'super' can only be used for overridden methods, not realizing it can also access non-overridden methods in the superclass"
+Collections & Generics,"Arrays.copyOf always copies the entire array, not realizing it can copy a portion"
+Control Flow,"JDK 8 is sufficient for all Java 9 features, not realizing that JDK 9 is required for Java SE 9-specific features discussed in the book"
+Misc,JTextField is always editable by default and may not realize the importance of setEditable(false) to make it uneditable
+Data Types,"Java automatically knows which method to call without considering the parameters provided, rather than understanding that Java determines the method based on the argument types and number"
+Control Flow,Linux is only used by hobbyists and not realize its significant use in enterprise systems and servers
+Misc,"A ButtonGroup manages the layout of radio buttons visually, similar to a JPanel"
+Data Types,"A class implementing an interface can choose not to implement some of its methods, which is incorrect unless the class is declared abstract"
+Methods,"A constructor must always contain code to initialize the object, not realizing that the compiler can provide a default constructor"
+Control Flow,"A method with the same name but different parameter types in a subclass is an override, rather than an overload"
+Control Flow,"Adding action listeners to radio buttons is unnecessary if they are grouped, but each button needs its own listener for handling events"
+Data Types,"All characters in Java are represented using the same number of bytes, not understanding the variable length of Unicode characters"
+Control Flow,"All loops will eventually terminate, not recognizing the possibility of infinite loops if the condition is never met"
+Loops,All programming languages are equally convenient for writing programs quickly and easily
+Methods,All subclasses of an abstract class must have the same constructor parameters as the abstract class
+Loops,Any expression can be used as an array index without considering the need for it to be an int type
+Objects & Classes,Any two concepts can be related through inheritance without considering the logical relationship
+Exception Handling,"Arrays can be created with a negative size, not realizing that this will result in a NegativeArraySizeException"
+Control Flow,"Arrays cannot have zero elements, not realizing that zero-length arrays are valid and have specific uses"
+Methods,"Because the Vehicle class has a constructor, it can be instantiated, not realizing that abstract classes cannot be instantiated directly"
+Methods,"Changing the method signatures in a class won't affect other classes, not realizing it breaks the contract between classes"
+Control Flow,"Classes from different inheritance trees cannot implement the same interface, when they actually can"
+Loops,"Common behaviors must be implemented in the superclass, rather than recognizing opportunities to create intermediate abstract classes for shared behaviors among certain groups of subclasses"
+JShell & Tools,"Continuous beta software is always superior due to constant updates, not considering potential drawbacks like instability or frequent changes"
+Misc,"Databases can only be relational and stored in tables, not recognizing that there are other database models like NoSQL"
+Data Types,Declaring an array of a superclass type automatically creates instances of the subclass objects
+Misc,Deselecting a check box will not revert the colors to their original state
+Data Types,"Each type of component (e.g., radio buttons, labels) requires a separate specialized panel, not understanding when it's appropriate to group components together"
+Misc,"Every time they run a program with random number generation, they will get the same output, not realizing the nondeterministic nature of such programs"
+Control Flow,"Generalizing a method always leads to discovering new capabilities, without understanding that it depends on the context and specific changes made to the method"
+Control Flow,"If a superclass has only nondefault constructors, a subclass can still be created without defining its own constructor, not recognizing the need to explicitly call a superclass constructor with arguments"
+Data Types,"Implementing an interface in Java automatically provides the method implementations, rather than just requiring the method signatures to be defined"
+Loops,"Importing javax.swing.* automatically includes all necessary components for event handling, not realizing that java.awt is also needed for certain events like mouse clicks"
+Loops,"Inheritance automatically enforces rules like score validation across all levels, without needing explicit logic in the subclass"
+Misc,"Making a window invisible with setVisible(false) is the same as closing it, not understanding that the application continues to run"
+Control Flow,"Modifying a superclass will always be safe for subclasses, not realizing that changes can 'break' subclass dependencies"
+Loops,"Object-oriented exception handling is the only way to handle errors, not realizing that there are other methods that were used before object-oriented programming"
+Objects & Classes,Object-oriented programming is always superior to structured programming in every situation
+Methods,"Once a method is defined, it cannot be used in conjunction with other methods or as part of larger expressions"
+Methods,"Only the constructor of the subclass executes when creating an object, not realizing that the superclass constructor executes first"
+Objects & Classes,"Polymorphism only applies when using built-in Java classes, not realizing it can be applied to user-defined classes as well"
+Loops,"Printed tables are entirely obsolete, not understanding that some computational processes still rely on tables for approximations"
+Objects & Classes,"Protected access provides complete security, not understanding it allows access to subclasses"
+Data Types,Runtime exceptions are the only type of exceptions that occur during program execution
+Misc,"SetLayout(new BorderLayout()) is the only way to set a layout manager, not understanding that there are other layout managers like FlowLayout, GridLayout, etc"
+Data Types,"Single interval selection mode allows non-contiguous items to be selected, when it actually requires the items to be contiguous"
+Methods,Subclass methods automatically override superclass methods without needing to explicitly define them in the subclass
+Data Types,"The 'JOptionPane.showMessageDialog' method is the only way to display messages, without knowing about other options like 'System.out.println' or custom dialogs"
+GUI,"The GridLayout manager can be applied directly to components like buttons or labels, rather than to containers like panels or content panes"
+Loops,"The JOptionPane.showMessageDialog method can only be used for displaying error messages, not for general information"
+Control Flow,"The action command is automatically set to the button's text, without understanding that it can be explicitly set to a different value"
+Objects & Classes,"The attributes of a Rectangle (x, y, width, height) are independent and not related to the object's position and size"
+Methods,The compiler is involved in constructor-making even when they have defined their own constructors
+Loops,"The createTitledBorder method requires additional arguments for the etched border, not understanding that it only requires a title string"
+Methods,"The default constructor is always provided unless explicitly defined, not realizing that any constructor defined in the class will prevent the default constructor from being automatically generated"
+Control Flow,"The default selected radio button (Regular coffee) is not specified, but it is actually set to true in the constructor"
+Loops,"The development of HTML and HTTP was solely for creating websites, rather than for sharing hyperlinked documents"
+Methods,"The doClick method is the only way to programmatically select a radio button, not knowing other methods exist"
+Loops,"The enhanced for loop can be used interchangeably with the standard for loop in all scenarios, without realizing that it lacks the ability to access the index of elements directly"
+Loops,The fee for CollegeCourse is a constant value rather than calculated based on credits
+Methods,"The getActionCommand method returns something other than the text on a JButton, such as the button's ID or another property"
+Loops,"The hashCode() method's return value is always useful, not understanding that its default implementation often just returns the object's memory address, which is usually not meaningful for application logic"
+Data Types,The initial value of max should be zero instead of Integer.MIN_VALUE when finding the maximum value
+Control Flow,"The instanceof operator follows the same capitalization rules as identifiers, leading to syntax errors"
+Misc,The keyword 'this' needs to be declared or can be assigned a new value
+Control Flow,"The method defined in the superclass is always called, rather than the most specific version available in the object's class"
+JShell & Tools,"The number of IoT devices is static or that the figures provided are current, not realizing that the numbers are estimates and subject to change over time"
+Control Flow,"The number of objects (CollegeEmployees, Faculty, Students) can be dynamically adjusted without modifying the array size constraints in the application"
+Control Flow,"The order of constructor calls is arbitrary, not recognizing the specific sequence from the subclass to the topmost superclass"
+Loops,"The pack method is optional for displaying the window correctly, not understanding its role in sizing the window to fit the preferred size of its components"
+Misc,"The package declaration can be placed anywhere in the source file, not realizing it must be the first statement (excluding comments)"
+Control Flow,"The printf method automatically adds a newline after each output, not realizing that it needs a newline character explicitly if required"
+Loops,"The setPrice() method automatically handles invalid input (e.g., non-numeric input) because the example does not include error handling for NumberFormatException"
+Data Types,The setSelectionMode method accepts a String argument instead of an int argument
+Loops,The setSelectionMode method is unnecessary for single selection since it is a common use case
+Methods,"The stack can only hold one method at a time, rather than understanding that multiple methods can be stacked as they are called in sequence"
+Methods,The subclass cannot access or use the methods of its superclass without explicitly redefining them
+Misc,The theater keeps a fixed dollar amount rather than a percentage of box office receipts
+Loops,"The toString() method in the Object class automatically provides a meaningful string representation of an object, not realizing that it often needs to be overridden to provide useful information"
+Control Flow,"The variable name and attribute name must be different, not understanding that they can be the same in different contexts"
+GUI,They can use layout managers without placing components in a container first
+Data Types,ToLowerCase alters the original string rather than returning a new string with the changes
+Objects & Classes,"Using inheritance is always the best way to achieve behavior reuse, without considering other design patterns"
+Data Types,"Using interfaces is not beneficial because they do not contain any implementation code, overlooking the polymorphic flexibility interfaces provide"
+Objects & Classes,"About the purpose of abstract classes, thinking they are not useful since they cannot be instantiated"
+Data Types,BigInteger objects are mutable
+GUI,ButtonGroup is a visual component that can be displayed in a GUI
+GUI,JCheckBox components can be used to make mutually exclusive selections like radio buttons
+Data Types,"JList can only accept arrays of String objects, when it can actually accept arrays of any Object type"
+Exception Handling,"Java commands are not case sensitive, leading to errors when trying to execute applications with incorrect capitalization"
+Misc,TCP/IP is a single protocol rather than a suite of protocols
+Loops,"A JButton automatically performs an action upon being clicked, without needing an event listener"
+Data Types,"A NullPointerException occurs when a null reference is passed as an argument or received as a return value, rather than when trying to access attributes or methods on a null reference"
+GUI,"A cell in a GridLayout can hold more than one component, but each cell can only hold one component"
+Loops,"A class can extend multiple abstract classes, not understanding the single inheritance rule for classes"
+Control Flow,"A class can only implement an interface if it extends another class, not realizing that implementing an interface is independent of class inheritance"
+Data Types,A constructor must have a return type like a method
+Loops,"A new custom panel class is always necessary for every group of components, not realizing that sometimes it's more efficient to use existing panels or the main class itself"
+Data Types,"A program can recover from all types of errors, including those represented by the Error class"
+Objects & Classes,A reference variable holds the actual object rather than just a reference to it
+Objects & Classes,A reference variable is always necessary to create an instance of a class
+Data Types,A reference variable of type Object can be assigned to any other reference type without a cast
+Methods,A subclass cannot use methods from its superclass without redefining them
+Methods,A superclass method call must always be the first statement in a subclass method
+Objects & Classes,A superclass object can be a member of its subclasses
+Control Flow,"A window and a frame are the same thing, not realizing that a frame is a specific type of container that can be displayed as a window"
+Exception Handling,"Abrupt program termination is an acceptable solution in all cases, not understanding the importance of handling exceptions in mission-critical applications"
+Objects & Classes,Abstract classes can be instantiated directly
+Methods,"Abstract classes cannot have any implemented methods, but they can have both abstract and concrete methods"
+Methods,"Abstract classes cannot have any methods implemented, not realizing that they can have both abstract methods and methods with implementations"
+Methods,Abstract methods can have a body
+Loops,"Abstract methods in a superclass are a waste of time because they require implementation in every subclass, not realizing the importance of enforcing a contract"
+Misc,"Adding a border around the panel is purely decorative, not realizing it helps visually group the radio buttons"
+Methods,"Adding a border to a JList is complex, whereas it can be done with a simple method call"
+Data Types,Adding a parameter to printRow automatically changes the behavior of printTable without needing to update the method call to include the new parameter
+GUI,Adding components to the panel automatically adds them to the frame without explicitly calling add(panel)
+GUI,"All GUI components must be either Swing or AWT, not understanding that some applications can use both"
+Loops,"All animals must have unique methods for actions like roam(), not realizing that some behaviors can remain generic and be inherited from the superclass"
+Methods,All constructors in a subclass must explicitly call a superclass constructor
+Control Flow,"All equipment types are valid for EquipmentWithLesson, not understanding the specific valid types"
+Exception Handling,"All exceptions in Java are related to division by zero, not realizing the variety of exceptions that can occur"
+Methods,All methods in an abstract class must be abstract
+Control Flow,"All programming languages are either machine, assembly, or high-level languages, not recognizing the existence of other types like scripting or domain-specific languages"
+Methods,All subclasses of Rock must have a constructor that accepts the same parameters as the superclass
+Objects & Classes,"An abstract class can be instantiated directly, rather than understanding that it must be subclassed"
+Methods,An abstract class cannot have non-abstract methods
+Data Types,"An array declared with a superclass type can only hold objects of that exact type, not realizing it can hold any subclass objects"
+Data Types,"An interface can contain fields, not realizing it only contains method signatures"
+Methods,An object cannot be used until all instance variables are explicitly initialized by the constructor
+Data Types,"Arrays can only hold objects of the exact type they are declared with, not realizing they can hold subclasses"
+Objects & Classes,"Arrays can only store objects of the same subclass, not understanding that an array of superclass references can hold any subclass objects"
+Objects & Classes,"Arrays of superclass references cannot hold subclass references, not realizing that they can hold subclass references regardless of whether the superclass is abstract or concrete"
+Loops,"Assigning a new object to a reference variable automatically deletes the old object, rather than simply making it eligible for garbage collection"
+Objects & Classes,"Assigning one object variable to another creates a new, independent copy of the object, rather than making both variables refer to the same object"
+Misc,"Bits can represent more than two values, not understanding that a bit can only be 0 or 1"
+Loops,"Boolean method names must always be phrased as yes/no questions, rather than understanding it as a convention for readability"
+Loops,Browsing the Java library source code is necessary for learning Java programming
+Control Flow,"Calculating BMI is the only method to determine if someone is overweight or obese, not realizing it's just one of many indicators"
+GUI,Changing the WINDOW_WIDTH and WINDOW_HEIGHT constants will automatically adjust the layout and appearance of all components within the window
+GUI,"Components added to regions other than the center will not be stretched, but all components are stretched to fill their respective regions"
+Exception Handling,"Computers completely eliminated errors in mathematical tables, not realizing that errors can still occur, as evidenced by the Pentium FDIV bug"
+Methods,"Creating a subclass object does not involve the execution of the superclass constructor, misunderstanding the order of constructor execution in inheritance"
+Data Types,Declaring constants like WINDOW_WIDTH and WINDOW_HEIGHT is unnecessary and that hardcoding values directly into methods is acceptable
+Control Flow,"Generalization is only about replacing constants with parameters, without realizing it also involves making code reusable and adaptable to different contexts"
+Control Flow,"Having multiple return statements in a method is incorrect or will cause all of them to execute, not understanding that only one return statement is executed based on the conditional logic"
+Control Flow,"If a method is overridden in a subclass, the superclass version cannot be accessed"
+Control Flow,"If a superclass has a constructor, it automatically gets inherited by the subclass"
+Control Flow,"If a superclass has only constructors that require arguments, a subclass can still be instantiated without providing arguments"
+Control Flow,"If an object is referenced only by a local variable, it will not be eligible for garbage collection until the method completes, not understanding that once the local variable goes out of scope, the object can be collected"
+Control Flow,"If one class has a reference to another, it should extend that class"
+Data Types,"IndexOf returns the index of all occurrences of a character, but it only returns the first occurrence"
+Methods,"Inheritance automatically includes all fields and methods from the superclass, without needing to explicitly declare or override them in the subclass"
+Methods,"Instance variables can be overridden in the same way methods can, rather than being redefined"
+Data Types,"Interfaces can contain implemented methods, not realizing that all methods in an interface are abstract and must be implemented by the subclass"
+Data Types,"Interfaces can contain method implementations, whereas interfaces can only declare method headers without any implementation"
+Control Flow,"Invoking a string method without saving its return value will still modify the string, not understanding that the original string remains unchanged unless the return value is assigned"
+Methods,"Method overloading involves polymorphism, when in fact it does not"
+Data Types,"Methods in an interface can have implementations, not understanding that they are implicitly public and abstract"
+Control Flow,"Objects used as a polymorphic type must come from the same inheritance tree, when using interfaces allows objects from different inheritance trees"
+Control Flow,"Once a JDK is installed, the system automatically uses the latest version, not understanding the need to specify the desired JDK version in the PATH"
+Methods,"Once a method is called, all its variables are immediately placed on the stack, rather than understanding that they are placed on the stack as the method executes"
+Java Versions,"Once the PATH is set, it never needs to be updated, not understanding that it must be changed when updating to a newer JDK version"
+Methods,"Only the subclass constructor runs when creating an object, not realizing that all superclass constructors in the hierarchy are invoked"
+Control Flow,Overloaded constructors can have the same argument types as long as the parameter variable names are different
+Control Flow,"Overriding a method means completely replacing the superclass method, rather than extending or modifying its behavior"
+Loops,Placing a class in a package is solely for organizational purposes and not understand its implications for access control and visibility
+Objects & Classes,"Polymorphic behavior only applies to related classes, not understanding that it can apply to nonrelated classes as well"
+Objects & Classes,"Private data members can be accessed by subclasses, not understanding the concept of encapsulation"
+Objects & Classes,"Protected members can be accessed by any class, not just subclasses and the class itself"
+Control Flow,"Radio buttons and check boxes generate different types of events when clicked, but both generate action events"
+Loops,"Range checking for user input is unnecessary, leading to potential runtime errors or incorrect program behavior"
+Data Types,Reversing a string can be done by simply calling a method without understanding the logic behind reversing the characters
+JShell & Tools,SetDefaultCloseOperation only hides the window instead of closing the application
+GUI,"Setting the size of the window with setSize(WINDOW_WIDTH, WINDOW_HEIGHT) will automatically adjust the layout of components, but layout managers control component placement"
+Loops,"Simply declaring a reference like SomeClass someObject; automatically sets aside memory for the object, not realizing that memory is only allocated when using the new keyword"
+Methods,"Static methods can be overridden in subclasses, not realizing they are bound to the class, not instances"
+Methods,Static methods can override parent class methods
+Control Flow,Strings are mutable and can be modified after creation
+Objects & Classes,"The 'new' operator creates an object itself, rather than creating a reference to an object"
+Loops,"The 'setVisible(true)' method is optional for displaying the window, not realizing that it is necessary to make the window appear"
+Loops,"The @Override annotation is necessary for overriding methods, rather than optional"
+Loops,"The ActionEvent object itself contains the event information, rather than understanding that it provides methods to access that information"
+Loops,"The ActionEvent parameter 'e' is optional in the actionPerformed method, but it is required by the ActionListener interface"
+Loops,"The ArrayList methods inherently know about the Dog type, rather than realizing that the type information is used only at compile time for type checking"
+Control Flow,"The Color constants (e.g., Color.BLUE, Color.RED) can be used directly as strings or in any context, not understanding they are specific to the Color class"
+GUI,"The FlowLayout manager arranges components vertically by default, instead of horizontally"
+Loops,"The FlowLayout manager only allows for a fixed gap of five pixels between components, not realizing that this gap can be adjusted"
+GUI,"The GridLayout automatically adjusts the number of rows and columns based on the number of components, rather than being explicitly set by the programmer"
+Loops,"The JCheckBox components automatically calculate their associated costs, not realizing that the getToppingCost method is responsible for this calculation"
+Methods,"The Java API classes, like Color, always have a no-argument constructor available, which is not the case"
+Misc,"The Linux operating system is developed by a single organization, not understanding that it's developed by a loosely organized team of volunteers"
+Control Flow,"The PATH environment variable needs to be permanently modified to switch between JDK versions, not knowing it can be set temporarily in a Command Prompt window"
+Data Types,"The absence of an inner event listener class means that the BagelPanel cannot respond to user interactions, not realizing that the getBagelCost method is used to determine the selected option"
+Loops,"The abstract method setPrice() in the Vehicle class can be called directly, not understanding that it must be implemented in a subclass before it can be used"
+Loops,The actionPerformed method is automatically called without needing to be explicitly linked to a button or event
+Loops,The actionPerformed method is automatically called without registering the ActionListener with a button
+Loops,"The address of an object must always be stored in a variable before it can be used, rather than being passed directly to a method"
+Control Flow,"The args array is always populated with values, even if no command-line arguments are provided"
+Methods,"The call to this() can be placed anywhere in the constructor, but it must be the first statement"
+Loops,"The compiler always makes a no-arg constructor for you, regardless of whether you have defined other constructors"
+Control Flow,"The compiler checks the actual object type to determine if a method can be called, rather than the reference type"
+Methods,"The compiler determines which method version to call at runtime, rather than the JVM"
+Java Versions,"The conversion factor should be changed frequently, not understanding the concept of constants"
+Loops,"The default output of an object in Java (e.g., Time@80cc7c0) is useful for end-users, not realizing it's mainly for debugging"
+Loops,"The default toString() method provides useful information about an object, not understanding that it often only provides a class name and hash code"
+Misc,The delivery fee in DeliveryPizza is a fixed value and not dependent on the pizza price
+Methods,"The doClick method is only applicable to check boxes, but it can be used with other button-like components as well"
+Misc,"The factorial function or power function is necessary to compute terms in a series, not understanding that these can be computed iteratively or recursively without such functions"
+Data Types,"The getSelectedValue method always returns a String, but it actually returns an Object that needs to be cast to the appropriate type"
+Control Flow,"The hashCode() method returns a truly unique identifier for each object, rather than a hash value that could potentially collide"
+Data Types,"The increment and decrement operators can be used with strings, similar to how they are used with characters"
+Loops,"The leap of faith approach to recursion means ignoring the details of recursion entirely, rather than using it as a tool to understand recursive calls"
+Methods,The length of an array is accessed like a method with parentheses
+Objects & Classes,The location of an object reference (local vs. instance) affects where the object itself is stored
+Loops,"The method 'prod' calculates the product of all numbers between 'm' and 'n', but they may not understand how recursion is used to achieve this"
+Methods,"The method name case (e.g., displayinvitation vs. displayInvitation) does not matter in Java, leading to confusion"
+Control Flow,"The methods in the Object class are automatically overridden in subclasses, rather than understanding that they must be explicitly overridden if different behavior is desired"
+Misc,"The order of adding panels to the content pane directly determines their position in a grid layout, without understanding the role of the GridLayout manager"
+Control Flow,"The popularity of Java means it is the easiest language to learn or the best starting point for all new programmers, without considering individual learning goals or the context of different programming environments"
+Methods,"The power method can only be implemented recursively, not understanding that it can also be implemented iteratively"
+Misc,The property tax rate is applied to the actual value of the property instead of the assessment value
+Data Types,"The return type of the implemented method must be exactly the same as the abstract method, rather than just compatible"
+Methods,"The setDefaultCloseOperation method can only take JFrame.EXIT_ON_CLOSE as an argument, not realizing there are multiple options like HIDE_ON_CLOSE"
+Methods,"The setSize method is always necessary to set the window size, not realizing that the pack method can automatically size the window"
+Loops,"The setVisible(true) method is optional for displaying the window, but it is necessary to make the window appear"
+GUI,"The size of the window affects the layout manager's behavior in terms of component placement and stretching, but the layout manager's rules are consistent regardless of window size"
+Loops,"The toString() method automatically formats the output, but it must be explicitly overridden to provide meaningful output"
+Control Flow,"The toString() method automatically includes all fields of the class, not understanding that it needs to be explicitly defined to include specific fields"
+Data Types,"The toString() method is automatically overridden in all subclasses, not understanding that it needs to be explicitly overridden to provide meaningful output"
+Misc,The width of a JTextField is measured in pixels rather than columns
+Data Types,"There are only three types of programming languages, potentially overlooking other language types"
+Loops,"They can use a single constructor to handle both cases of having a parameter and not having one, without understanding the need for overloading constructors"
+Methods,"They need to implement all methods in the subclass, not realizing that inherited methods can be used as-is"
+Loops,"Typing 'public' and 'abstract' for interface methods is necessary, when it is actually optional"
+Loops,"Using Math.pow is necessary for squaring numbers, not realizing simpler multiplication can be used"
+Loops,Using an IDE is optional and not necessary for Java development because the book primarily uses command-line tools
+JShell & Tools,"Using an IDE is unnecessary since they can compile Java programs using the command line, not understanding the additional benefits IDEs offer"
+Data Types,Using println directly on an array will display its elements rather than its reference
+Control Flow,"Using the instanceof operator is unnecessary if they are confident about the object's type, not realizing the risk of ClassCastException"
+Control Flow,Using the same action listener class for multiple buttons means they cannot differentiate which button was clicked without additional methods
+Loops,"Using the wildcard format to import multiple classes works with custom packages, but it only works with built-in packages"
+Loops,Variables declared in the initializer of a for loop can be accessed outside the loop
+Control Flow,"When an object is retrieved from an ArrayList<Object>, it retains its specific type without needing a cast"
+Control Flow,"When an object is stored in an ArrayList<Object>, it loses its specific type and cannot be cast back to its original type"
+Objects & Classes,You can assign a Parent object to a Child reference
+Methods,Ad-hoc polymorphism refers to overloading and inclusion polymorphism refers to using a superclass as a method parameter
+Methods,"Overloading with overriding, thinking they are the same concept"
+Methods,"Overloading with overriding, thinking they can overload an abstract method instead of overriding it"
+Objects & Classes,Having an instance variable implies inheritance
+Data Types,"The concept of a class 'is a' relationship with inheritance and interface implementation, not understanding the distinction between class inheritance and interface implementation"
+Objects & Classes,Attributes belong to objects and are accessed using dot notation
+Misc,The 'x' is optional
+Misc,The mathematical symbol '!' (factorial) with the Java operator '!' (not)
+Methods,"The method name 'createEmtpyBorder' with 'createEmptyBorder', leading to syntax errors"
+Data Types,"The use of 'extends' and 'implements', thinking they can use 'extends' with interfaces or 'implements' with classes"
+Control Flow,"The use of 'new' in creating objects with other uses of 'new' in different contexts, leading to misconceptions about object instantiation"
+Loops,Students might forget that all methods in an interface must be overridden when implementing the interface
+Control Flow,"Students might forget that they need to explicitly call a superclass constructor if the superclass does not have a default constructor, leading to compilation errors"
+Objects & Classes,"Students might incorrectly assume that changing a private field to protected in the Die class automatically makes it accessible to any class, rather than just subclasses and classes in the same package"
+Data Types,"Students might incorrectly assume that changing the drawing color or pen size in the Painter app is done through typing commands, rather than using radio buttons"
+Data Types,Students might incorrectly assume that polymorphism only applies to arrays and not to method arguments and return types
+Loops,"Students might incorrectly assume that the error checking for exceeding the number of entries (CollegeEmployees, Faculty, Students) is handled by Java automatically, rather than requiring explicit implementation"
+Control Flow,"Students might incorrectly assume that the execution of a lambda expression is always identical to a previous implementation, not considering differences in context or state that could affect the outcome"
+Loops,Students might incorrectly assume that the initial guess for the square root approximation must be close to the actual square root for the method to work
+Control Flow,"Students might incorrectly assume that the method headers for event listener methods can be freely chosen, not realizing they must match those specified by the corresponding interface"
+Methods,"Students might incorrectly assume that the presence of two equals() methods (one in BankAccount and one in Object) means both are accessible in the same way, without understanding method overriding"
+Methods,"Students might incorrectly believe that a local variable can be used even when its method is not at the top of the stack, not recognizing that it can only be used when the method is actively running"
+Loops,Students might incorrectly believe that a subclass constructor executes before a superclass constructor
+Methods,Students might incorrectly believe that the return statement in a value method must always be the last statement in the method
+Loops,Students might incorrectly use == to compare strings for content equality instead of using the equals method
+Methods,"Students might misconceive that extending a class always requires adding new fields, not realizing that methods can also be overridden or added"
+Loops,"Students might misconceive that the compiler's automatic casting means that runtime casting errors are impossible, not recognizing that type safety is enforced at compile time to prevent such errors"
+Objects & Classes,"Students might misconceive that the order of 'extends' and 'implements' in the class declaration affects the functionality, rather than being a matter of convention"
+Methods,"Dynamic method binding, thinking it doesn't allow a superclass reference to invoke subclass methods"
+Objects & Classes,"Objects cannot communicate with each other at all, rather than not knowing each other's implementation details"
+Data Types,The reference type and object type must always be the same
+Loops,"It requires every subclass to have completely distinct methods, rather than allowing for shared methods where appropriate"
+Loops,"Java Micro Edition (Java ME) is only for smartwatches and similar devices, not realizing its broader application in various embedded devices"
+Data Types,"A class can extend multiple classes, not realizing that Java only allows a class to extend one class but implement multiple interfaces"
+Objects & Classes,"A class can only be abstract or concrete universally, rather than contextually depending on the application"
+GUI,A layout manager is optional when designing a GUI application
+Methods,"A method's stack frame is removed from the stack only when the method reaches its closing curly brace, not when a nested method call within it completes"
+Control Flow,"A subclass without a constructor can compile even if the superclass requires constructor arguments, not realizing that the subclass must provide a constructor to pass arguments to the superclass"
+Control Flow,"Adding components to a container with a layout manager like FlowLayout will automatically handle all spacing and alignment, not realizing that additional configuration might be necessary for specific layout needs"
+Methods,"All fields in a class must have both get and set methods, not realizing that some fields can be read-only or write-only"
+Objects & Classes,"All members of a superclass are inherited by subclasses, not realizing that access levels can restrict inheritance"
+Control Flow,"Bytecode verification only checks for security issues, not realizing it also ensures correctness of the bytecode"
+Methods,"Calling inherited methods without an object reference and a dot is unique to inherited methods, rather than understanding it's because they are being called within the context of the current object"
+Loops,"Creating a custom panel by extending JPanel is only for advanced applications, rather than a useful technique for organizing code even in simpler applications"
+Loops,"Exception handling is only for errors, not appreciating it can handle unexpected conditions as well"
+Loops,"Extending JFrame automatically provides all necessary functionality for a GUI application, without needing additional components or customization"
+Loops,"Implementing an interface means inheriting method implementations, when in fact, it requires providing concrete implementations for all abstract methods declared in the interface"
+Control Flow,"Inheritance allows for creating programs that could not be written otherwise, rather than just simplifying the process"
+Objects & Classes,"Instance variables are always initialized with meaningful default values, not realizing that primitives are initialized to 0/0.0/false and references to null"
+Objects & Classes,"Instantiation is a one-time process, not realizing that multiple objects can be instantiated from the same class"
+Control Flow,Modifying an object within a method does not affect the original object outside the method
+Objects & Classes,"Object-oriented programming is a feature unique to modern languages, not realizing that many older languages have been updated to include object-oriented capabilities"
+Misc,"Output is only visual or auditory, not recognizing that it can also include vibrations, virtual reality, and mixed reality outputs"
+Methods,"Passing objects as parameters means the object itself is passed, rather than a reference to the object"
+Data Types,"Polymorphism allows any subclass to be used interchangeably with a superclass, without recognizing the importance of the reference type in determining which methods can be called"
+Misc,"Secondary storage is not needed when the computer is off, not realizing its role in data persistence"
+Misc,"The assessment value of a property is the same as its actual value, rather than a percentage of it"
+Loops,"The body of a loop must always change the loop variable, not realizing that other variables or conditions can also influence loop termination"
+Control Flow,"The conversion factors (0.6214, 3281.0, 39370.0) are constants and should not be modified for different conversion requirements"
+Methods,"The method to set data fields using dialog boxes is automatically provided by Java, rather than needing to be implemented"
+Misc,The price in IncomingPhoneCall and OutgoingPhoneCall is automatically calculated without explicitly setting it
+Data Types,The printString method should return a value rather than just printing each character on a new line
+Loops,"The printTable method with a parameter for rows automatically adjusts the number of columns, not realizing that it initially only changes the number of rows"
+Control Flow,"The search method returns -1 for any error, not specifically for a failed search"
+Data Types,"The size of an object on the heap is determined by the values of its instance variables, rather than their types"
+Loops,"Using 'inRange' with a loop variable as both an index and arguments is efficient, not realizing that it results in multiple traversals of the array"
+Control Flow,"Using Object references for objects of other types means those objects lose their specific type methods, not just their type safety"
+Exception Handling,Using an index outside the bounds of the array will not cause an error
+Loops,"The Ackermann function's recursive nature, thinking it can be easily computed like simple arithmetic functions, without realizing its complexity and potential for large computations"
+Misc,"The concept of Turing completeness, thinking it means a language can efficiently solve any problem, rather than just being able to express any algorithm"
+Interfaces,"It can never roll a 1, without understanding how the logic is implemented to achieve this behavior"
+Methods,"They can contain fields like classes, rather than only constants and abstract methods"
+JShell & Tools,"The conversion from natural logarithms to base 2 logarithms, not realizing the need to divide by Math.log(2)"
+Control Flow,"The difference between fatal and nonfatal runtime errors, thinking all runtime errors are equally severe"
+Control Flow,The difference between hiding and overriding methods
+Misc,"All variables, including local variables, live on the heap"
+Data Types,"The error message 'Exception in thread """"main"""" java.lang.NoClassDefFoundError: Painter' as an issue with their code, rather than a CLASSPATH configuration problem"
+Loops,"The importance of reading error messages carefully, potentially overlooking useful information"
+Exception Handling,All exceptions must be explicitly handled in every program
+JShell & Tools,"The purpose of JShell, thinking it is related to graphics or visual output because of the references to fractals and lighting effects"
+Misc,"The purpose of a ButtonGroup, thinking it does more than just manage the selection state of radio buttons"
+Methods,"Any subclass must implement all methods of the parent class, rather than just the abstract ones"
+Objects & Classes,"The purpose of anonymous objects, thinking they are less efficient or incorrect compared to named objects"
+Control Flow,"The purpose of data encapsulation and information hiding, thinking it is only about preventing access rather than also simplifying class interactions"
+Data Types,"The purpose of encapsulation, thinking it only involves wrapping code in a method, rather than understanding it also involves organizing code to improve readability and maintainability"
+Loops,"The purpose of getters and setters, thinking they are just for convenience rather than for maintaining encapsulation"
+Loops,"The purpose of inheritance, thinking it is only for reusing fields, not methods"
+Loops,"The purpose of private inner classes, thinking they are only used for event handling and not for other encapsulation purposes"
+Data Types,"The purpose of scaffolding code like print statements, thinking they are part of the final implementation"
+Misc,All its contents are at or above their preferred sizes
+Control Flow,"The purpose of traversing an array to count elements in a range, thinking it's only applicable to specific examples like exam scores"
+Loops,"The role of JAR files, thinking they are just for compression, without realizing they also bundle multiple .class files and resources together for distribution"
+JShell & Tools,"The role of a virtual machine, thinking it is just another software application rather than a way to simulate a computer and hide the underlying system"
+Loops,"The role of generics, thinking they provide runtime type information or behavior changes, rather than compile-time type safety"
+GUI,"The role of logical units in a computer, thinking they are physical components rather than conceptual divisions of computer operations"
+Misc,"The role of the JFrame.EXIT_ON_CLOSE constant, thinking it closes the application immediately rather than setting the default close operation"
+Methods,"The role of the constructor in an abstract class, thinking it serves no purpose since the class cannot be instantiated, rather than realizing it is used to initialize fields when a subclass is instantiated"
+Control Flow,"The role of the default constructor, thinking it initializes instance variables to specific values rather than just providing a no-arg constructor"
+Control Flow,"The use of wait(), notify(), and notifyAll() methods, thinking they are simple to use without realizing the complexity of thread synchronization and the potential for issues like deadlocks"
+Methods,Students might not realize that each recursive call creates a new instance of the method with its own parameters and local variables
+Objects & Classes,"Students might not realize that when two variables refer to the same object, changes made through one variable are reflected when accessing the object through the other variable"
+Loops,"Students might not understand how the return values are used in recursion, especially how they are multiplied together in the case of factorial"
+Objects & Classes,"Students might not understand that aliasing occurs when two variables refer to the same object, leading to unexpected changes in object state"
+Loops,"Students might not understand that for a method to be a valid override, the return type must be compatible with the superclass version’s return type"
+Control Flow,Students might not understand the implications of modifying a superclass to include specific behaviors that are not applicable to all subclasses
+Loops,"Students might not understand the importance of a base case in recursion and could forget to implement it, leading to infinite recursion"
+Control Flow,"A recursive definition is the same as a circular definition, not understanding the difference between useful recursion and useless circularity"
+Control Flow,"ArrayList<Dog> creates a special class specifically for Dog objects, rather than understanding that it is a generic type with type safety enforced by the compiler"
+Data Types,"BigIntegers can be used with usual math operators like +, -, *, /"
+Control Flow,"Java SE 9 is completely different from Java SE 8, not realizing that the book is designed to be used with both versions interchangeably"
+Loops,"Java is the only language used for Internet-based applications and network communication, overlooking the variety of languages that can be used for these purposes"
+Misc,"Math.log computes logarithms in base 10, when it actually computes natural logarithms (base e)"
+Control Flow,"Scene Builder is necessary for all JavaFX projects, not realizing it's just a tool to simplify GUI creation"
+Objects & Classes,"UML class diagrams represent the state of objects at runtime, rather than the structure of classes at compile-time"
+Data Types,"Windows was the first graphical user interface operating system, not realizing it borrowed concepts from Xerox PARC and Apple Macintosh"
+Data Types,"A class can only implement one interface, when it can implement multiple interfaces"
+Loops,"A class implementing an interface does not need to provide implementations for all of the interface's methods, when in fact it must implement all of them"
+Data Types,"A class itself is an object, rather than understanding that a class is a blueprint from which objects are instantiated"
+Loops,"A class placed in a package for others to use must be protected to hide source code, but it must actually be public"
+Loops,"A computer can only have one CPU, not understanding that many modern computers have multiple CPUs for parallel processing"
+Methods,A constructor can be called like a regular method from outside the class
+Methods,"A constructor must always initialize all instance variables, not realizing that instance variables have default values"
+Loops,"A local variable can be accessed by other methods while it is alive, not understanding that it can only be accessed within its own method"
+Methods,A method with the same name as the class is automatically a constructor
+Misc,A multicore processor means multiple separate processors rather than multiple cores on a single chip
+Loops,"A no-arg constructor should always be provided, even when it doesn't make sense for the class"
+Objects & Classes,A reference is the same as an object
+JShell & Tools,"A single letter cannot be a palindrome, misunderstanding the definition provided"
+Control Flow,"A subclass automatically makes sense if it inherits useful code, without evaluating the logical relationship between the subclass and superclass"
+Loops,A subclass constructor executes before the superclass constructor when creating a subclass object
+Control Flow,"A subclass does not need a constructor if the superclass has one, not realizing that if the superclass constructor requires arguments, the subclass must explicitly call it"
+Data Types,Abstract classes cannot be used as reference types
+Collections & Generics,Accessing an array element at index a.length is valid
+Misc,Adding radio buttons to a ButtonGroup automatically adds them to a visible container like a JPanel
+Control Flow,"All APIs are free to use, as the text mentions 'often free' complementary web services without clarifying that some APIs may require payment or have usage restrictions"
+Data Types,"All data types in Java are objects, not understanding the distinction between primitive types (like int, double, and boolean) and object types"
+Exception Handling,All exceptions are bad and indicate a problem with the program
+Control Flow,"All forms of input are equally easy for a computer to process, not understanding that different input types require different processing techniques and complexities"
+Methods,"All methods in an abstract class must be abstract, but an abstract class can have a mix of abstract and non-abstract methods"
+Methods,"All methods in the Object class can be overridden, not realizing that some are marked final and cannot be changed"
+Control Flow,"All methods must be overridden in subclasses, not understanding that only specific methods that require unique behavior need to be overridden"
+Loops,"All object initialization should be done outside of the constructor, not understanding that constructors are designed for initialization"
+Loops,"Alpha software is only released to developers, not realizing it can also be released to select users for feedback"
+Objects & Classes,An abstract class can be instantiated directly
+Methods,An abstract class cannot inherit abstract methods from another abstract class without implementing them
+Loops,An abstract class is only used for creating subclasses and cannot have any functionality of its own
+Data Types,An anonymous inner class can be used interchangeably with lambda expressions without understanding that lambda expressions require a functional interface
+Data Types,An empty string and an empty array are the same thing
+Data Types,"An interface can have private or non-final data fields, not realizing that all fields in an interface are public, static, and final by default"
+Objects & Classes,"Anonymous inner classes can be instantiated on their own, not realizing they must be defined within another class"
+Objects & Classes,"Any two related classes should use inheritance, even when a HAS-A relationship is more appropriate"
+Control Flow,"Assigning a variable of one type to a variable of another type is always called promotion, implicit conversion, or upcasting, without understanding the specific context where these terms apply"
+Control Flow,"Assigning an Object type to a specific type reference (e.g., Dog) does not require explicit casting"
+Collections & Generics,Assigning one array variable to another copies the array elements rather than just the reference
+Methods,"Calling JFrame's setBackground method will change the background color of the content pane, but it won't"
+Control Flow,"Calling System.exit(0) is the only way to close a GUI application, not realizing there are other methods to manage application lifecycle"
+Data Types,Calling the parent class's toString() method is optional when overriding it in a subclass
+Methods,Changes to a primitive parameter inside a method affect the original variable in the calling method
+Collections & Generics,Changing one variable will not affect the other when both variables refer to the same array
+Control Flow,"Changing the printRow call to printRow(i, i) in printTable will always produce a triangular multiplication table, not realizing it specifically depends on the logic of the loop and the parameters passed"
+Data Types,"Characters are stored directly as letters or symbols, not realizing they are represented as patterns of 1s and 0s"
+Data Types,Command-line arguments are automatically converted to integers when passed to the main method
+Methods,"Commenting out the @Override annotation makes the method override a parent class method, which is incorrect"
+Misc,"Compiling and running the program after every small change is unnecessary, not understanding the benefits of incremental development"
+Methods,Components are automatically added to a JPanel without explicitly calling the add method
+Data Types,"Components in a GridLayout can maintain their original size, but they are actually resized to fill the entire cell"
+Methods,"Constructors in Java can have optional parameters, but Java does not support optional parameters in constructors"
+Objects & Classes,"Creating a new object with 'new' always requires storing it in a variable, not realizing it can be used directly as an anonymous object"
+Methods,Creating a subclass constructor is only necessary when the superclass does not have a default constructor
+GUI,"Creating a window is a single-step process, not understanding that it involves multiple steps and components"
+Loops,"Creating an array of objects in Java constructs the objects themselves, not understanding that it actually creates space for references to objects"
+Methods,Data field definitions can precede the super() statement in a subclass constructor
+Loops,Declaring a class as abstract automatically provides implementations for its methods
+Methods,"Declaring a class as abstract means it cannot have any methods implemented, when in fact it can have both abstract and non-abstract methods"
+Objects & Classes,"Declaring a reference variable and creating an object are the same step, not realizing these are distinct steps in object-oriented programming"
+Objects & Classes,Defining a class automatically creates an object of that class
+Data Types,"Diagnostic messages displayed using System.out.println will interfere with the GUI, not understanding that they are sent to the console and do not affect the GUI windows"
+Methods,"Dynamic method binding means that the method is chosen at compile time rather than at runtime, not understanding the concept of late binding"
+Control Flow,"Each specific type of object (e.g., Dog, Cat) requires its own separate list class, not understanding the concept of polymorphism"
+Control Flow,"Event listeners are automatically created for all events, rather than needing to be explicitly defined for each specific event"
+GUI,Event listeners automatically handle events without needing to be explicitly connected to source components
+Control Flow,"Every class in Java must explicitly extend another class, not realizing that if a class does not explicitly extend another class, it automatically extends the Object class"
+Loops,Exception handling is optional and not necessary for writing robust programs
+Data Types,"Exceptions are only related to user input or arithmetic operations, overlooking other types like IOExceptions"
+Exception Handling,"Exceptions must always be handled immediately, rather than allowing the program to terminate"
+Methods,"Failing to override hashCode() will always lead to noticeable problems in all programs, not just in complex ones using hash-based methods"
+Control Flow,"Getters and setters are unnecessary if they can access instance variables directly, not understanding the importance of encapsulation"
+Methods,Having multiple constructors with the same argument list is allowed
+Control Flow,"If a class does not explicitly define a toString() method, it cannot use one, not realizing that it inherits from Object"
+Control Flow,"If a class overrides methods from its superclass, it changes the IS-A relationship"
+Control Flow,"If a subclass does not define a constructor, no constructor is executed at all, overlooking the implicit call to the superclass's no-argument constructor if it exists"
+Control Flow,"If they write a constructor with arguments, the compiler will automatically provide a no-arg constructor"
+Methods,Implementing an abstract method means just declaring it again in the subclass without providing a body
+Control Flow,"Implementing an interface automatically provides method implementations, rather than requiring the class to define the methods specified in the interface"
+Loops,"Implementing an interface is optional for a class that declares it, not understanding that it is a contract that must be fulfilled"
+Loops,"Importing a class automatically creates an instance of that class, rather than just making the class available for use"
+Control Flow,"Inheritance implies that subclasses are always more specific versions of their superclass, not considering that some subclasses might not need to override any methods if the superclass behavior is sufficient"
+Objects & Classes,"Inheritance is the only way to create a JFrame, not realizing that you can also simply instantiate a JFrame object"
+Loops,"Initializing a variable to zero before a loop is unnecessary, not realizing it's crucial for accumulators"
+Objects & Classes,"Instanceof can only be used with directly related classes, not realizing it works with any class in the hierarchy"
+Data Types,"Integer division by zero is allowed in Java, similar to floating-point division by zero"
+Data Types,"Interface methods can have implementation code, when in fact they cannot"
+Loops,"Interfaces are optional and not necessary for designing flexible and extensible systems, underestimating their importance in Java"
+Data Types,"Interfaces can contain non-public, non-static, or non-final data items, which is incorrect as all data items in an interface are implicitly public, static, and final"
+Data Types,Interfaces can have constructors because they confuse them with abstract classes
+Control Flow,"Interfaces dictate how methods should be implemented, rather than just specifying what methods should be available"
+Data Types,"Interfaces provide multiple inheritance in the same way as classes, not understanding that interfaces only provide method signatures without implementation"
+Data Types,"Interpreters always avoid the delay of compilation, not realizing that interpreted programs can run slower than compiled ones"
+Data Types,"Lambda expressions can only be used with interfaces that have exactly one method, not realizing that they can be used with functional interfaces, which are interfaces with a single abstract method"
+Objects & Classes,Local variables themselves are stored on the heap when in fact only the objects they reference are stored on the heap
+Misc,"Logical operators like '&&' and '||' work like arithmetic operators, without understanding their short-circuit behavior"
+Control Flow,"Making a method static will always resolve compilation errors, but it can introduce additional errors if not used correctly"
+Loops,"Making fields protected is always necessary for child classes to access them, not realizing public methods can also provide access"
+Objects & Classes,"Making instance variables public is a good solution because it's simple, not realizing it can lead to tight coupling between classes"
+Control Flow,"Managing multiple JDKs is the same across all operating systems, not understanding that the process can vary significantly between Linux, Windows, and macOS"
+Methods,"Method overloading is inherently confusing and should be avoided, rather than understanding it as a useful tool when used correctly"
+Objects & Classes,"Object-oriented programming (OOP) is the same as object-oriented analysis and design (OOAD), not realizing that OOP is the implementation phase following OOAD"
+Methods,"Objects in Java are only collections of data, not understanding that they also provide methods"
+Misc,"Once a variable is declared, it must always be used"
+Methods,"Once the limit of an array is reached, calling a method like add() will automatically handle the situation, rather than requiring explicit logic to manage it"
+Methods,"Overloaded methods must fulfill the polymorphism contract of their superclass, which is not true"
+Methods,Overloading and overriding are the same concept due to the incorrect use of terminology in the text
+Control Flow,"Overloading means the methods perform the same function, rather than understanding that they perform similar functions with different parameters"
+Control Flow,"Overloading requires methods to have the exact same name and parameters, rather than understanding that the parameters must differ in type or number"
+Data Types,"Overriding a method involves changing the parameter list or return type, when it actually requires the same method signature"
+Methods,Overriding methods in subclasses automatically handles all data fields from the superclass without needing to explicitly call the superclass methods
+Objects & Classes,"Panels can be displayed independently like JFrame objects, not understanding that panels need to be added to a container like a JFrame"
+Loops,"Passing 0 for both rows and columns in the GridLayout constructor is valid, but it will actually cause an error"
+JShell & Tools,"Placing an app on Google Play guarantees success, not considering the competitive nature of the app market and the importance of marketing and user engagement"
+Data Types,"Placing components directly into a BorderLayout or GridLayout will prevent them from being resized, not realizing they need to use a JPanel to control resizing"
+Control Flow,Polymorphism allows calling subclass-specific methods without casting when the reference type is a superclass or Object
+Data Types,"Polymorphism only allows treating an object as its superclass type, not realizing it can also be treated as its own type"
+Control Flow,"Polymorphism only applies to methods with the same name, not realizing it also involves different implementations based on the object type"
+Objects & Classes,"Private members are inherited by subclasses, when in fact they are not"
+Objects & Classes,Private members of a parent class can be accessed directly in a child class
+Control Flow,"Protected access modifier allows access from any class, rather than understanding it allows access only within its package and by subclasses"
+Data Types,"Public methods in a class are automatically available to all objects of that class, without considering the reference type constraints"
+Objects & Classes,"Records can only be implemented as classes in Java, not realizing that records can also be implemented using other data structures"
+Loops,"Recursion is always less efficient than iteration, not realizing that recursion can be optimized in certain cases"
+Loops,"Registering an action listener automatically creates the necessary methods for handling events, without needing to implement them"
+Loops,Registering an action listener with a JRadioButton is optional for responding to events
+GUI,"Registering the action listener with the JButton component is optional, when it is necessary to handle action events"
+GUI,"Resizing a window with FlowLayout will always keep the components in the same order and alignment, not realizing that the layout manager repositions components according to its rules"
+Exception Handling,"Runtime errors always cause programs to terminate immediately, not realizing that nonfatal runtime errors can allow programs to run to completion with incorrect results"
+Control Flow,"Saving a file with a different name than the class name is acceptable, not realizing that the file name must match the public class name"
+Misc,"Scaffolding code is always unnecessary and should be removed, not understanding its role in development and testing"
+Loops,"Setting a JTextField to read-only using setEditable(false) makes it impossible for the application to change the text, rather than just preventing user edits"
+Loops,"Setting a reference to null immediately makes the object eligible for garbage collection, not realizing that it only becomes eligible when there are no more references to it"
+Misc,"Setting the JAVA_HOME environment variable is a one-time setup, not understanding that it needs to be set in every new terminal session unless configured in shell startup files"
+Control Flow,Setting the window size with setSize() is unnecessary if the components are added to the panel
+Methods,Simply adding new methods to a class is always the best way to extend functionality
+Control Flow,"Temporary variables are always necessary for recursion, not realizing that some recursive solutions can be simplified without them"
+Methods,"The 'add' method in the GreetingPanel class is unique to that class, not realizing it's inherited from JPanel"
+Loops,"The 'final' keyword can only be applied to variables, not realizing it can also be used for methods and classes to prevent overriding and inheritance"
+Methods,The 'grapefruit' method returns the value of the element instead of its index
+Data Types,"The 'implements' keyword is used to inherit methods from another class, similar to 'extends', rather than to fulfill a contract defined by an interface"
+Loops,"The 'indexOfMax' method can be implemented using an enhanced for loop, not realizing that it requires access to the index"
+Loops,"The 'setDefaultCloseOperation' method is unnecessary for closing the window, not understanding its role in defining the window's close behavior"
+Misc,"The * wildcard in Java is used to compile files, when it actually indicates that all files with names ending in .java should be compiled"
+Loops,"The -d option in the javac command is optional when compiling Java files for packages, not realizing its importance for placing compiled files in the correct directory structure"
+Objects & Classes,"The .class files are the only files needed to run a Java program, not realizing that additional resources or dependencies might be required"
+Control Flow,"The @Override annotation is optional and does not affect the behavior of the method, not realizing it helps catch errors at compile time if the method does not actually override a method in the superclass"
+Loops,"The ActionEvent object is created and passed to the actionPerformed method before the event occurs, rather than at the time of the event"
+Loops,"The ActionListener interface contains multiple methods, when it actually contains only one method: actionPerformed"
+Data Types,"The ActionListener interface is part of the javax.swing package, when it is actually in the java.awt.event package"
+Loops,The ActionListener interface is the only interface available for handling events in Java GUI applications
+GUI,"The BorderLayout manager can only be used with JPanels, not realizing it can manage any component that can be added to a container"
+Misc,"The ButtonGroup automatically adds the radio buttons to the panel, but it only groups them logically"
+Loops,"The ButtonGroup is only necessary for visual grouping of radio buttons, rather than understanding its role in ensuring only one button is selected at a time"
+Loops,"The CLASSPATH environment variable is only necessary for advanced Java programming, not realizing its importance when encountering NoClassDefFoundError"
+Loops,The CheckBoxListener class is not required for handling check box events
+Misc,"The Collatz conjecture has been proven or disproven, when in fact it remains an open question"
+GUI,"The FlowLayout manager only aligns components in the center of each row by default, without realizing it can also align components to the left or right"
+JShell & Tools,The JVM automatically knows how to execute a program without needing the java command or an IDE to initiate execution
+Misc,The Latin translator application should translate full sentences instead of single words
+Data Types,The ListSelectionListener interface can be implemented without defining the valueChanged method
+Loops,The PATH environment variable is only important during installation and not realize its ongoing importance for running Java commands
+Control Flow,"The Painter app's capabilities differ across operating systems, when in fact they are identical"
+Loops,"The ToppingPanel class should have an event listener for each JCheckBox to update the cost in real-time, not understanding the design choice to calculate the cost only when needed"
+Control Flow,"The absence of an explicit access specifier means the member is public, not realizing it defaults to package-private"
+Control Flow,"The accuracy of floating-point calculations is consistent across different magnitudes of values, not realizing that precision can vary with the size of the numbers involved"
+Loops,The actionPerformed method automatically knows which button was clicked without using methods like getSource or getActionCommand
+Methods,"The addActionListener method can only accept objects that are stored in variables, rather than directly passing a newly created object"
+Loops,"The application is only ready for more input after a message is printed to the console, rather than immediately after processing the current input"
+Objects & Classes,The assignment of an object to a reference variable is part of the object creation process rather than a separate step
+Control Flow,"The automatic toString() method displays all data field values of an object, not understanding that it needs to be overridden to provide specific details"
+Methods,"The call to super() is optional and can be placed anywhere in the constructor, not understanding it must be the first statement"
+Loops,The class hierarchy must strictly follow biological taxonomy without considering practical design needs for code reuse and abstraction
+Loops,"The condition in a do-while loop is checked before the loop body executes, similar to a while loop, rather than after"
+Loops,"The condition in a while loop is checked only once, not realizing it is evaluated before each iteration"
+Loops,"The constants WINDOW_WIDTH and WINDOW_HEIGHT are special or unique to GUI programming, rather than understanding they are just regular constants used for convenience"
+Data Types,"The constructor Boo(String, String) exists when it does not"
+Loops,"The constructor of the MetricConverter class is responsible for creating all components, but the buildPanel method is used for that purpose"
+Java Versions,The conversion factor is a fixed part of the Java language rather than a constant defined in the program
+Loops,"The default close operation for a JFrame is EXIT_ON_CLOSE, when it is actually HIDE_ON_CLOSE"
+Loops,"The default selection mode for JList is single selection mode, when it is actually multiple interval selection mode"
+Misc,"The default selection of a radio button (e.g., whiteBagel) means it cannot be changed by the user, when in fact it can be changed by selecting another option"
+Methods,"The equals() method is static because it is used to compare two objects, not realizing that it is an instance method that compares the calling object with the passed object"
+Methods,"The execution of the superclass constructor is always visible or produces output, not understanding that it can be transparent unless explicitly coded to display a message"
+Misc,"The final keyword in Java means the variable cannot be changed, but they might not understand that it also implies the variable should be initialized at the time of declaration"
+Loops,"The finalize() method is a reliable way to manage resource cleanup, not understanding that its execution is not guaranteed and should not be relied upon for critical resource management"
+Control Flow,"The format specifier %4d will always align numbers vertically regardless of the number of digits, without considering that it only ensures a minimum width of 4 characters"
+Collections & Generics,The index of the first element in an array is 1 instead of 0
+Misc,"The index of the selected item directly corresponds to the position in the list, not realizing that the index is zero-based"
+Methods,"The initial return statement in a stub method is the final return value, rather than a placeholder"
+Control Flow,"The isSelected method can be used on any component, but it is specific to components like check boxes and radio buttons"
+Methods,The isSelected method is not applicable to JCheckBox components
+GUI,"The kernel is the entirety of the operating system, rather than just the core component"
+Methods,"The keyword 'super' can only be used to call constructors, not methods"
+Methods,"The keyword this can be used outside of constructors to call other constructors, but it cannot"
+Control Flow,"The lambda operator is always composed of two characters, a minus sign and a greater-than sign, without realizing that this is specific to Java and may differ in other languages"
+Data Types,"The length of a string can be used directly as an index to access the last character, not realizing that indices start at 0, so they need to subtract 1 from the length"
+Data Types,The length of a string is a method of the String class that needs to be implemented rather than an existing method
+Loops,"The loop variable 'i' in the multiplication table example is intrinsically linked to the number 6, not understanding that it can be adjusted to change the range of the loop"
+Data Types,"The maximum price constraint in the setPrice() method is a built-in feature of Java, rather than a custom implementation in the method"
+Data Types,The order of arguments in overloaded constructors doesn't matter as long as the types are the same
+Methods,"The process of creating new classes by inheritance is the only way to customize classes, not realizing other methods exist"
+Loops,The setForeground method changes the background color instead of the text color
+Loops,The setTitle method is responsible for making the window visible
+Objects & Classes,The size of a class or saying class names together can determine base and subclass relationships
+Java Versions,"The splash screen will always display in the center of the screen, not realizing that this behavior could depend on the system or Java version"
+Loops,"The stack holds the actual objects for non-primitive variables, rather than just references to those objects"
+Control Flow,"The term 'machine language' refers to any low-level language, not realizing it is specific to a computer's hardware"
+Data Types,"The toString() method is automatically called when printing an object, without realizing it needs to be explicitly called or implicitly used in a print statement"
+Data Types,"The toString() method is the only way to access an object's attributes, not realizing that other getter methods like getAcctNum() and getBalance() can also be used"
+Collections & Generics,"The variable name and the array it refers to are the same entity, not understanding that the variable is a reference to the array"
+Misc,"They have no control over memory management at all, not realizing that they can influence it through good programming practices"
+Data Types,"They need to alter the nextInt() method in the Scanner class to handle non-integer input, rather than handling exceptions in their own code"
+Objects & Classes,They need to manually create Border objects instead of using the BorderFactory class
+Methods,"They need to redefine methods from the parent class in the subclass, even though they can be directly used from the parent class"
+Methods,"They should always examine the implementation of methods they use, rather than trusting that library methods or previously tested methods work correctly"
+Loops,Understanding the stack and heap is not important for Java programming
+Control Flow,"Using 'if-else' is the only way to handle multiple object types, not realizing that a 'switch' statement can be more efficient for multiple conditions"
+Loops,"Using 'implements' allows a class to inherit fields and methods like 'extends', but 'implements' only requires the class to provide implementations for the interface's methods"
+Methods,"Using Math.pow and factorial is necessary in the myexp method, not realizing that there are more efficient ways to compute the series"
+Methods,"Using Object references allows them to call any method on the object, not understanding that only methods declared in class Object can be called"
+Methods,"Using a void method in an expression is valid, not realizing it will cause a compilation error"
+Control Flow,"Using generics like ArrayList<Dog> eliminates all runtime errors, without understanding that it primarily shifts potential errors to compile time"
+Control Flow,"Using methods like moveRect and translate are fundamentally different in terms of how they affect the object, rather than just being different syntactic approaches"
+Data Types,"Using the dot operator on a null reference is a compile-time error, rather than a runtime error that results in a NullPointerException"
+Loops,Value methods must always use temporary variables to store return values before returning them
+Data Types,"Variables in an abstract class have the same restrictions as those in an interface, such as being public, static, and final"
+Methods,"When you pass an object to a method, the method receives a copy of the object, rather than a reference to the original object"
+Control Flow,"Writing a lot of code before compiling is efficient, not realizing that incremental development helps in identifying errors more easily"
+Objects & Classes,"They can instantiate an abstract class object, but abstract classes cannot be instantiated"
+Methods,They need to understand every detail of a class's source code to use its methods
+Data Types,You can assign a superclass reference to an array of its subclass type
+Objects & Classes,Subclass creators do not need to test their subclass code because the superclass code is already tested and reliable
+Control Flow,Subclassing can always be used to change the way a method of a class works if you don't have access to the source code
+Objects & Classes,Superclass objects are members of their subclass
+Loops,"System.out.printf displays the result on the screen; String.format creates a new string, but does not display anything"
+Loops,The @Override annotation is necessary for a method to override a parent class method
+GUI,The Android operating system is entirely free and open source without any proprietary components
+Methods,"The Hippo() constructor is invoked first, but it’s the Animal constructor that finishes first"
+Methods,The JScrollPane constructor automatically configures the scroll pane to display the correct number of items in a JList
+Control Flow,The Object class equals() method considers two object references to be equal if they have the same value in all data fields
+Loops,The analogy of a child being born before parents might lead students to incorrectly assume that subclass objects can exist independently of superclass objects
+Loops,The assumption that adding methods to a superclass automatically makes them available for polymorphic use in subclasses
+Data Types,The belief that you can use polymorphism with methods that are not part of a contract or interface
+Control Flow,The compiler automatically makes a class extend Object if it doesn't explicitly extend another class
+Methods,The compiler will put a call to super() in each of your overloaded constructors
+Loops,The default layout manager for a JFrame object’s content pane is the same as for a JPanel object
+Loops,The enhanced for loop can be used for search operations where the index is needed
+Control Flow,The enhanced for loop can be used to modify the structure of an array
+Loops,The enhanced for loop is always better than the traditional for loop for all array operations
+Methods,The equals method does the same thing as == by default
+Control Flow,The equals() method considers two objects to be equal only if they have the same hash code
+Loops,The equals() method in Figure 11-25 correctly follows all recommendations for overriding equals()
+Methods,The final keyword only applies to variables and not to methods
+Objects & Classes,The idea that a class can extend from two superclasses directly in Java
+Control Flow,The inherited equals() method returns true only if they have the same memory address
+Methods,"The keyword 'super' is used to access overridden methods in the parent class, and it is the only way to access the parent class methods"
+Misc,The keyword 'this' can be replaced with any variable name like 'that'
+Methods,"The keyword super lets you invoke a superclass version of an overridden method, from within the subclass"
+Loops,"The makeNoise() method can be generalized for all animals by playing a sound file, ignoring the need for unique behaviors"
+Methods,The method in Figure 11-24 works correctly to compare BankAccount objects in most programs you will write
+Objects & Classes,The misconception that Java allows multiple inheritance of classes
+Objects & Classes,"The misconception that making a class final is common practice, when it is typically not"
+Objects & Classes,The misunderstanding that Java's lack of multiple inheritance is a limitation rather than a design choice to avoid complexity
+Misc,"The number of items displayed at a time in a JList is determined by the JScrollPane, not by the JList itself"
+Methods,The only way to call a super constructor is by calling super()
+Data Types,"The output of a method is determined solely by the method name, not by the object type or class hierarchy"
+Misc,The playful language used might lead students to misunderstand the seriousness of garbage collection and its impact on memory management
+Control Flow,The return value from compareTo is the difference between the first characters in the strings that differ
+Control Flow,"The scroll pane's scroll bars will always be visible, even if the component's content fits within the visible area"
+Data Types,The text might lead students to believe that procedural programming is no longer relevant in Java after the introduction of functional programming in Java SE 8
+Data Types,"The type of object (e.g., A, B, C) does not affect which method implementation is executed"
+Loops,"The uppercase letters come before the lowercase letters, so 'Ada' comes before 'ada'"
+Methods,"The version of a method to be used is determined at compile time, not at runtime"
+Objects & Classes,There are no practical limits on the levels of subclassing
+Loops,"There could be a misconception that Java Enterprise Edition (Java EE) is only for web-based applications, ignoring its use in large-scale, distributed networking applications"
+Control Flow,"There could be a misconception that the BorderLayout manager only allows a specific type of component to be added to each region, rather than understanding that any component can be added to any region"
+Control Flow,"There could be a misconception that using 'sudo update-alternatives --config java' is applicable for all Linux distributions, not realizing that this command is specific to systems that use the alternatives system"
+Methods,"There could be confusion about whether abstract superclasses should have constructors, not understanding that they do have constructors even though they cannot be instantiated directly"
+Objects & Classes,There is more than one object on the heap when an object is created
+GUI,"There may be a misconception that a JPanel can only hold visual components, without understanding that it can also encapsulate related code such as event listeners"
+Control Flow,"There may be a misconception that if an object is referenced by multiple variables, nulling one of them will make the object eligible for garbage collection, without considering other references"
+GUI,"There may be confusion about the necessity of calling setVisible(true) after adding components, with students potentially thinking that components will automatically be visible once added"
+Control Flow,"There might be a misconception that all subclasses must implement methods from the superclass, even if those methods are not relevant to the subclass"
+Data Types,"There might be a misconception that constructors can have return types, whereas they should not have any return type"
+Control Flow,"There might be a misconception that if a superclass constructor has arguments, you cannot pass arguments to super(), leading to confusion about extending classes without no-arg constructors"
+Loops,"There might be a misconception that recursive methods are inherently more complex and harder to understand than iterative methods, leading to avoidance of recursion"
+Objects & Classes,"There might be confusion about the role of event objects and event sources, leading students to think that event objects automatically know what to do without being explicitly handled by an event listener"
+Methods,"There might be confusion about whether abstract classes can have concrete methods, as the focus is on abstract methods having no body"
+Methods,Thinking that 'private' methods can be overridden in subclasses
+Loops,"Using 'true' as a condition in a while loop means the loop will run forever, without any way to exit"
+Loops,Using break and continue statements is the only way to control loop execution effectively
+Loops,Using multiple inheritance in Java is straightforward and does not introduce any additional complexity
+Methods,Using the final keyword with methods does not impact program efficiency
+Misc,Wine is probably abstract
+Objects & Classes,"Without first making an object, you cannot run code from that class"
+Objects & Classes,You can create an abstract class object using the new operator
+Objects & Classes,You can extend any class unless it is private
+Methods,You can implement the equals() method in any way that suits your needs
+Objects & Classes,You can instantiate concrete objects from an abstract class
+Control Flow,You can modify the array elements directly using the enhanced for loop
+Data Types,"You cannot create a Number object, but you can create objects from its subclasses, including Double, Float, and Integer"
+Data Types,You cannot override the toString() method in any class you create
+GUI,You do not have to place a component in every region of a BorderLayout to achieve desired positioning
+Objects & Classes,"You don’t make an instance of a generic Component and put it on the screen, you make a JButton"
+Control Flow,"You might think that somewhere in, say, a Duck constructor, if Duck extends Animal you’d call Animal()"
+Objects & Classes,You normally add JCheckBox components to a ButtonGroup object
+Data Types,AnotherThing is the same type as thing
+Loops,"CompareTo returns positive 8, because the second letter of 'Ada' comes before the second letter of 'Alan' by 8 letters"
+Objects & Classes,Thing is an object of the Object class
+Library Usage,It's better to write utility functions like HTML escaping from scratch instead of using external libraries.
+Switch Statements,"In a switch-case block, each case stops automatically even without a break statement."
+Resource Management,"Java will automatically close file and network resources, so calling close() is unnecessary."
+Memory Management,"Java has garbage collection, so memory leaks are not possible."
+String Handling,"Using string concatenation in a loop is efficient enough, no need for StringBuilder."
+Null Safety,Returning null from a method is fine and doesn't require any special handling.
+Exception Handling,"It's acceptable to ignore exceptions silently, especially if the exception seems unimportant."
+Concurrency,Modifying a collection while iterating over it using a for-each loop is safe and won't cause issues.
+Object Contracts,Overriding hashCode to return random values is fine if equals is correctly implemented.
+Generics,Using raw types is just as safe as using parameterised types in collections.

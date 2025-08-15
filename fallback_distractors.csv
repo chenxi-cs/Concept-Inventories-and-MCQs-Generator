@@ -1,0 +1,40 @@
+topic,option
+Control Flow,All if statements must have an else clause.
+Control Flow,Switch statements can only be used with integers.
+Control Flow,Break and continue have the same effect.
+Loops,For loops must always run at least once.
+Loops,While and do-while loops behave identically.
+Loops,You can only use while loops for numeric counters.
+Methods,All methods must return a value.
+Methods,You cannot overload a method in Java.
+Methods,Static methods can access instance variables directly.
+Data Types,int and Integer are completely interchangeable.
+Data Types,Java automatically converts all floats to doubles.
+Data Types,You can assign a string to a char variable.
+Variables,All variables must be declared at the top of the method.
+Variables,Local variables are initialized by default.
+Variables,You can use any keyword as a variable name.
+Operators,The == operator compares object content.
+Operators,You must use === for comparison in Java.
+Operators,Logical AND has higher precedence than arithmetic addition.
+Classes and Objects,Objects are the same as classes.
+Classes and Objects,You must instantiate a class to call static methods.
+Classes and Objects,Constructors can have a return type.
+Inheritance and Interfaces,A class can extend multiple classes.
+Inheritance and Interfaces,Interfaces can have constructors.
+Inheritance and Interfaces,Overriding and overloading are the same concept.
+Exception Handling,Try blocks must always be followed by a catch.
+Exception Handling,You can only catch one exception type.
+Exception Handling,Checked exceptions do not exist in Java.
+Arrays and Collections,Arrays are dynamic in size.
+Arrays and Collections,You can use negative indexes in arrays.
+Arrays and Collections,ArrayLists can store primitives directly.
+JavaFX / GUI,JavaFX requires a main method.
+JavaFX / GUI,You must use SceneBuilder for JavaFX.
+JavaFX / GUI,JavaFX and Swing cannot be used together.
+Streams / Lambdas,Streams automatically execute in parallel.
+Streams / Lambdas,Lambdas cannot be used with listeners.
+Streams / Lambdas,Functional interfaces must have multiple abstract methods.
+Miscellaneous,Java is only used for web development.
+Miscellaneous,All Java programs must be compiled into .exe files.
+Miscellaneous,JVM is part of the operating system.
