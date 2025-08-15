@@ -53,3 +53,9 @@ python generate_mcq4.py
 
 ## License
 This project is for academic and research purposes only.
+
+##  Contact
+
+For questions or collaboration:
+- **Author**: Xi Chen  
+- **Email**: [c1781968765x@gmail.com]
