@@ -238,7 +238,7 @@ def call_gpt(prompt, expect="text"):
         else:
             return content
     except Exception as e:
-        print("❌ OpenAI API error:", e)
+        print("OpenAI API error:", e)
         return [] if expect.startswith("json") else ""
 
 # ==== Output ====
@@ -277,16 +277,16 @@ def main():
     # ==== Load distractors safely (moved from global) ====
     try:
         misconception_db = load_distractor_csv("cleaned_again2_classified_distractors.csv")
-        print(f"✅ Loaded main distractor DB: {sum(len(v) for v in misconception_db.values())} items")
+        print(f"Loaded main distractor DB: {sum(len(v) for v in misconception_db.values())} items")
     except Exception as e:
-        print("⚠️ Failed to load main distractor CSV:", e)
+        print("Failed to load main distractor CSV:", e)
         misconception_db = {}
 
     try:
         fallback_db = load_fallback_distractors("fallback_distractors.csv")
-        print(f"✅ Loaded fallback distractor DB: {sum(len(v) for v in fallback_db.values())} items")
+        print(f"Loaded fallback distractor DB: {sum(len(v) for v in fallback_db.values())} items")
     except Exception as e:
-        print("⚠️ Failed to load fallback distractor CSV:", e)
+        print("Failed to load fallback distractor CSV:", e)
         fallback_db = {}
 
     all_concepts = []
@@ -295,11 +295,11 @@ def main():
 
     # ==== Concept extraction ====
     for book in BOOKS:
-        print(f"\n📘 {book['name']}")
+        print(f"\n {book['name']}")
         try:
             raw = extract_pdf_text(book["path"], book["start"], book["end"])
         except Exception as e:
-            print(f"⚠️ Failed to open PDF {book['path']}: {e}")
+            print(f" Failed to open PDF {book['path']}: {e}")
             continue
 
         filtered = filter_text_blocks(raw)
@@ -337,7 +337,7 @@ def main():
     print(f"\n🧾 Saved concepts to {concept_json} / {concept_csv} (total {len(all_concepts)})")
 
     # ==== MCQ generation ====
-    print("\n🎯 Generating MCQs...")
+    print("\n Generating MCQs...")
     all_mcq = []
 
     for i, item in enumerate(all_concepts, 1):
@@ -362,7 +362,7 @@ def main():
                 try:
                     structure_errors = detect_misconception_nodes(chunk)
                 except Exception as e:
-                    print("   ⚠️ structure analysis failed:", e)
+                    print("structure analysis failed:", e)
 
             # Candidate distractors
             candidate_pool = misconception_db.get(item["topic"], [])
@@ -419,14 +419,14 @@ def main():
                 "options": option_dict
             }
             all_mcq.append(mcq)
-            print(f"   ✅ MCQ ok (correct: {correct_label})")
+            print(f"MCQ ok (correct: {correct_label})")
 
         except Exception as e:
-            print(f"   ⚠️ MCQ generation failed: {e}")
+            print(f"MCQ generation failed: {e}")
         time.sleep(1.2)
 
     save_mcq_csv(all_mcq, mcq_csv)
-    print(f"\n✅ Generated {len(all_mcq)} questions -> {mcq_csv}")
+    print(f"\n Generated {len(all_mcq)} questions -> {mcq_csv}")
 
 
 if __name__ == "__main__":
