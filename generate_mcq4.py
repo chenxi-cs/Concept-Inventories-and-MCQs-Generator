@@ -278,7 +278,7 @@ def save_mcq_csv(data, filename):
 def main():
     # ==== Load distractors safely (moved from global) ====
     try:
-        misconception_db = load_distractor_csv("distractor_output/cleaned_again2_classified_distractors.csv")
+        misconception_db = load_distractor_csv("cleaned_again2_classified_distractors.csv")
         print(f"✅ Loaded main distractor DB: {sum(len(v) for v in misconception_db.values())} items")
     except Exception as e:
         print("⚠️ Failed to load main distractor CSV:", e)
